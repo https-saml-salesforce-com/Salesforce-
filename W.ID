@@ -1,0 +1,1 @@
+wrangler workflows instances describe <WORKFLOW_NAME> <ID> [OPTIONS]

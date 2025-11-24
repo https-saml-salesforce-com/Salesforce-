@@ -1,0 +1,1 @@
+JDBC_URI=jdbc:postgresql://ep-nameless-sun-a4c385ve.us-east-1.pg.koyeb.app/Abundance%20Marble%20?user=koyeb-adm&password=npg_9EaL6IVrOgxb
