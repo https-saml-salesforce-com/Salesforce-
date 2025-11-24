@@ -1,0 +1,668 @@
+
+
+<record xmlns="http://www.loc.gov/MARC21/slim">
+
+<leader>08399cam a2201825 a 4500</leader>
+
+<controlfield tag="001">oxfordenglishdic0000unse_a3t6</controlfield>
+
+<controlfield tag="003">CaSfIA</controlfield>
+
+<controlfield tag="005">20250212014130.0</controlfield>
+
+<controlfield tag="006">m o d</controlfield>
+
+<controlfield tag="007">cr||||||||||||</controlfield>
+
+<controlfield tag="008">880303s1989 enk gobd 000 0 eng </controlfield>
+
+<datafield tag="010" ind1=" " ind2=" ">
+
+<subfield code="z"> 88005330 </subfield>
+
+</datafield>
+
+<datafield tag="035" ind1=" " ind2=" ">
+
+<subfield code="a">(OCoLC)755053646</subfield>
+
+</datafield>
+
+<datafield tag="040" ind1=" " ind2=" ">
+
+<subfield code="a">DLC</subfield>
+
+<subfield code="b">eng</subfield>
+
+<subfield code="c">DLC</subfield>
+
+<subfield code="d">FIL</subfield>
+
+<subfield code="d">UKM</subfield>
+
+<subfield code="d">NLM</subfield>
+
+<subfield code="d">B2Q</subfield>
+
+<subfield code="d">BAKER</subfield>
+
+<subfield code="d">NLGGC</subfield>
+
+<subfield code="d">BTCTA</subfield>
+
+<subfield code="d">YDXCP</subfield>
+
+<subfield code="d">EDX</subfield>
+
+<subfield code="d">DCE</subfield>
+
+<subfield code="d">TXBXL</subfield>
+
+<subfield code="d">UBF</subfield>
+
+<subfield code="d">UKMGB</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">WSL</subfield>
+
+<subfield code="d">OCL</subfield>
+
+<subfield code="d">OCLCF</subfield>
+
+<subfield code="d">OCLCA</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">NKT</subfield>
+
+<subfield code="d">XFF</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">EUW</subfield>
+
+<subfield code="d">OCL</subfield>
+
+<subfield code="d">B6U</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">FC@</subfield>
+
+<subfield code="d">CRMMM</subfield>
+
+<subfield code="d">WCM</subfield>
+
+<subfield code="d">R7R</subfield>
+
+<subfield code="d">UEJ</subfield>
+
+<subfield code="d">ZGR</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">OCLCA</subfield>
+
+<subfield code="d">XBE</subfield>
+
+<subfield code="d">MNB</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">HHG</subfield>
+
+<subfield code="d">Z0P</subfield>
+
+<subfield code="d">KZK</subfield>
+
+<subfield code="d">NLC</subfield>
+
+<subfield code="d">AVA</subfield>
+
+<subfield code="d">HLS</subfield>
+
+<subfield code="d">MCS</subfield>
+
+<subfield code="d">DDO</subfield>
+
+<subfield code="d">HBS</subfield>
+
+<subfield code="d">V5E</subfield>
+
+<subfield code="d">GILDS</subfield>
+
+<subfield code="d">A7U</subfield>
+
+<subfield code="d">MUO</subfield>
+
+<subfield code="d">A7U</subfield>
+
+<subfield code="d">AU@</subfield>
+
+<subfield code="d">OCL</subfield>
+
+<subfield code="d">CBA</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">UKNRU</subfield>
+
+<subfield code="d">BDP</subfield>
+
+<subfield code="d">OCLCA</subfield>
+
+<subfield code="d">RDF</subfield>
+
+<subfield code="d">HFC</subfield>
+
+<subfield code="d">SOU</subfield>
+
+<subfield code="d">LUN</subfield>
+
+<subfield code="d">JABUK</subfield>
+
+<subfield code="d">CaSfIA</subfield>
+
+</datafield>
+
+<datafield tag="015" ind1=" " ind2=" ">
+
+<subfield code="a">GB8910070</subfield>
+
+<subfield code="2">bnb</subfield>
+
+</datafield>
+
+<datafield tag="015" ind1=" " ind2=" ">
+
+<subfield code="a">b8910070</subfield>
+
+</datafield>
+
+<datafield tag="016" ind1="7" ind2=" ">
+
+<subfield code="a">9209031</subfield>
+
+<subfield code="2">DNLM</subfield>
+
+</datafield>
+
+<datafield tag="016" ind1="7" ind2=" ">
+
+<subfield code="a">BA06680353</subfield>
+
+<subfield code="2">JP-ToKJK</subfield>
+
+</datafield>
+
+<datafield tag="016" ind1="7" ind2=" ">
+
+<subfield code="a">009534782</subfield>
+
+<subfield code="2">Uk</subfield>
+
+</datafield>
+
+<datafield tag="016" ind1=" " ind2=" ">
+
+<subfield code="a">(AMICUS)000007880433</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198611862</subfield>
+
+<subfield code="q">(set)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198611868</subfield>
+
+<subfield code="q">(set)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612133</subfield>
+
+<subfield code="q">(volume 1)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612131</subfield>
+
+<subfield code="q">(volume 1)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612141</subfield>
+
+<subfield code="q">(volume 2)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612148</subfield>
+
+<subfield code="q">(volume 2)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">019861215X</subfield>
+
+<subfield code="q">(volume 3)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612155</subfield>
+
+<subfield code="q">(volume 3)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612168</subfield>
+
+<subfield code="q">(volume 4)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612162</subfield>
+
+<subfield code="q">(volume 4)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612176</subfield>
+
+<subfield code="q">(volume 5)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612179</subfield>
+
+<subfield code="q">(volume 5)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612184</subfield>
+
+<subfield code="q">(volume 6)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612186</subfield>
+
+<subfield code="q">(volume 6)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612192</subfield>
+
+<subfield code="q">(volume 7)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612193</subfield>
+
+<subfield code="q">(volume 7)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612206</subfield>
+
+<subfield code="q">(volume 8)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612209</subfield>
+
+<subfield code="q">(volume 8)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612214</subfield>
+
+<subfield code="q">(volume 9)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612216</subfield>
+
+<subfield code="q">(volume 9)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612222</subfield>
+
+<subfield code="q">(volume 10)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612223</subfield>
+
+<subfield code="q">(volume 10)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612230</subfield>
+
+<subfield code="q">(volume 11)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612230</subfield>
+
+<subfield code="q">(volume 11)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612249</subfield>
+
+<subfield code="q">(volume 12)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612247</subfield>
+
+<subfield code="q">(volume 12)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612257</subfield>
+
+<subfield code="q">(volume 13)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612254</subfield>
+
+<subfield code="q">(volume 13)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612265</subfield>
+
+<subfield code="q">(volume 14)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612261</subfield>
+
+<subfield code="q">(volume 14)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612273</subfield>
+
+<subfield code="q">(volume 15)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612278</subfield>
+
+<subfield code="q">(volume 15)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612281</subfield>
+
+<subfield code="q">(volume 16)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612285</subfield>
+
+<subfield code="q">(volume 16)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">019861229X</subfield>
+
+<subfield code="q">(volume 17)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612292</subfield>
+
+<subfield code="q">(volume 17)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612303</subfield>
+
+<subfield code="q">(volume 18)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612308</subfield>
+
+<subfield code="q">(volume 18)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0198612311</subfield>
+
+<subfield code="q">(volume 19)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612315</subfield>
+
+<subfield code="q">(volume 19)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">019861232X</subfield>
+
+<subfield code="q">(volume 20)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780198612322</subfield>
+
+<subfield code="q">(volume 20)</subfield>
+
+</datafield>
+
+<datafield tag="041" ind1=" " ind2=" ">
+
+<subfield code="a">eng</subfield>
+
+</datafield>
+
+<datafield tag="050" ind1="0" ind2="4">
+
+<subfield code="a">PE1625</subfield>
+
+<subfield code="b">.O87 1989</subfield>
+
+</datafield>
+
+<datafield tag="055" ind1=" " ind2="3">
+
+<subfield code="a">PE1625</subfield>
+
+<subfield code="b">M87 1989</subfield>
+
+</datafield>
+
+<datafield tag="060" ind1="0" ind2="0">
+
+<subfield code="a">PE 1625</subfield>
+
+<subfield code="b">O98 1989</subfield>
+
+</datafield>
+
+<datafield tag="080" ind1=" " ind2=" ">
+
+<subfield code="a">030=111</subfield>
+
+<subfield code="b">O98</subfield>
+
+</datafield>
+
+<datafield tag="082" ind1="0" ind2="4">
+
+<subfield code="a">423</subfield>
+
+<subfield code="2">19</subfield>
+
+</datafield>
+
+<datafield tag="083" ind1="0" ind2=" ">
+
+<subfield code="a">English language - Dictionaries</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">18.04</subfield>
+
+<subfield code="2">bcl</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">AA 00</subfield>
+
+<subfield code="2">blsrissc</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">coll2</subfield>
+
+<subfield code="2">lacc</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">KS12</subfield>
+
+<subfield code="2">ndlc</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">833</subfield>
+
+<subfield code="2">ndc7</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">833</subfield>
+
+<subfield code="2">ndc8</subfield>
+
+</datafield>
+
+<datafield tag="245" ind1="0" ind2="4">
+
+<subfield code="a">The Oxford English Dictionary</subfield>
+
+</datafield>
+
+<datafield tag="246" ind1="3" ind2="0">
+
+<subfield code="a">Oxford English Dictionary</subfield>
+
+</datafield>
+

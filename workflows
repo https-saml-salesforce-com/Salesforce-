@@ -1,0 +1,1 @@
+wrangler workflows instances list <WORKFLOW_NAME> [OPTIONS]

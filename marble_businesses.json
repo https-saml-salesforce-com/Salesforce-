@@ -1,0 +1,54 @@
+{
+  "businesses": [
+    {
+      "id": "BUS001",
+      "name": "Abundance Marble & Ceramic Works",
+      "registration_number": "RC NO: 8388715",
+      "association": "Marble Works and Designs Practitioners Association, Osun State",
+      "location": {
+        "address": "Ido-Osun, Osun State",
+        "coordinates": "QFMP+P3G",
+        "city": "Ido-Osun",
+        "postal_code": "232104",
+        "state": "Osun",
+        "country": "Nigeria"
+      },
+      "contact": {
+        "phone": "08137665702",
+        "email": null
+      },
+      "area_served": "Dele Yes Sir Area, Ofatedo, Osun State",
+      "status": "active",
+      "created_date": "2025-10-25",
+      "salesforce_opportunity_id": "006QH00000F8e4UYAR"
+    }
+  ],
+  "members": [
+    {
+      "id": "MEM001",
+      "business_id": "BUS001",
+      "name": "James John Ayo",
+      "designation": "Member",
+      "phone": "08137665702",
+      "association_membership": {
+        "organization": "Marble Works and Designs Practitioners Association, Osun State",
+        "registration_number": "RC NO: 8388715",
+        "status": "active",
+        "membership_start_date": null,
+        "note": "Actual membership start date not specified in source documents"
+      },
+      "business_name": "Abundance Marble & Ceramic Works",
+      "office_address": "Ido-Osun, Osun State",
+      "location_coordinates": "QFMP+P3G",
+      "database_entry_date": "2025-10-25",
+      "status": "active"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-10-25T01:07:16.372Z",
+    "total_businesses": 1,
+    "total_members": 1,
+    "description": "Database of marble and ceramic businesses and practitioners in Nigeria"
+  }
+}
