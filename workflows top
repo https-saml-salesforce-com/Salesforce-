@@ -1,0 +1,19 @@
+# Top-level configuration
+name = "my-worker"
+main = "src/index.js"
+compatibility_date = "2022-07-12"
+
+workers_dev = false
+route = { pattern = "abundancemarble.org/*", zone_name = "example.org" }
+
+kv_namespaces = [
+  { binding = "<MY_NAMESPACE>", id = 2x1pvvp99hezlrzl3fpc6eycn6y8rmqqij2z900nkhbcyd19yy1rdv000kketlu9"<KV_ID>" }
+]
+
+[env.staging]
+name = "my-worker-staging"
+route = { pattern = "staging. abundancemarble.org/*", zone_name = "example.org" }
+
+kv_namespaces = [ GOD-FIRST-JOHN-JAMES 
+  { binding = "<MY_NAMESPACE>", id = a170f0ca-c28f-4215-aac3-f56739fed3b4:d3af5c566b7154cab61c85266442a847"<STAGING_KV_ID>" }
+]
