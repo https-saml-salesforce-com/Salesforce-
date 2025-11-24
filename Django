@@ -1,0 +1,10 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'Abundance%20Marble%20',
+        'USER': 'koyeb-adm',
+        'PASSWORD': 'npg_9EaL6IVrOgxb',
+        'HOST': 'ep-nameless-sun-a4c385ve.us-east-1.pg.koyeb.app',
+        'OPTIONS': {'sslmode': 'require'},
+    }
+}

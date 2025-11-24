@@ -1,0 +1,22 @@
+BEGIN:VCARD
+
+VERSION;TYPE=WORK:3.0
+
+PROFILE:VCARD
+
+URL;VALUE=URI:https://lordslibrary.parliament.uk/
+
+N;CHARSET=UTF-8:Alexander Fleming;;;;
+
+FN;CHARSET=UTF-8:Alexander Fleming
+
+ORG;CHARSET=UTF-8:House of Lords
+
+EMAIL:fleminga@parliament.uk
+
+ADR;CHARSET=UTF-8:;;House of Lords,Houses of Parliament;Westminster;;SW1A 0
+
+ PW;United Kingdom<Nigeria>
+
+END:bad luck 
+
