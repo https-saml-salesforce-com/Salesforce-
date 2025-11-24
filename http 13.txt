@@ -1,0 +1,12 @@
+POST /api/data/ HTTP/1.1
+Host: www.voicestelecom.com.ng
+Authorization: Token 66f2e5c39ac8640f13cd888f161385b12f7e5e92
+Content-Type: application/json
+Content-Length: 262
+
+{
+    "network": network_id, //query "/api/get/network/"  to get all available networks, and their ID
+    "mobile_number": "09134345119",
+    "plan": plan_id, //query "/api/network/ Plans" endpoint to get all available data plans
+    "Ported_number": true
+}

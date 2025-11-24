@@ -1,0 +1,528 @@
+
+
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+
+<record>
+
+<leader>03549cam a2200913 a 4500</leader>
+
+<controlfield tag="001">randomhousedicti0000unse_v9x2</controlfield>
+
+<controlfield tag="003">CaSfIA</controlfield>
+
+<controlfield tag="005">20240720172531.0</controlfield>
+
+<controlfield tag="006">m o d</controlfield>
+
+<controlfield tag="007">cr||||||||||||</controlfield>
+
+<controlfield tag="008">870203s1987 nyua od 000 0 eng </controlfield>
+
+<datafield tag="010" ind1=" " ind2=" ">
+
+<subfield code="z"> 87004500 </subfield>
+
+</datafield>
+
+<datafield tag="035" ind1=" " ind2=" ">
+
+<subfield code="a">(OCoLC)1245759921</subfield>
+
+</datafield>
+
+<datafield tag="040" ind1=" " ind2=" ">
+
+<subfield code="a">DLC</subfield>
+
+<subfield code="b">eng</subfield>
+
+<subfield code="c">DLC</subfield>
+
+<subfield code="d">FPT</subfield>
+
+<subfield code="d">NLM</subfield>
+
+<subfield code="d">B2Q</subfield>
+
+<subfield code="d">BAKER</subfield>
+
+<subfield code="d">NLGGC</subfield>
+
+<subfield code="d">BTCTA</subfield>
+
+<subfield code="d">YDXCP</subfield>
+
+<subfield code="d">ZWQ</subfield>
+
+<subfield code="d">GBVCP</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">FS8</subfield>
+
+<subfield code="d">OCLCF</subfield>
+
+<subfield code="d">BEDGE</subfield>
+
+<subfield code="d">P4I</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">IOI</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">FC@</subfield>
+
+<subfield code="d">ALABM</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">ILM</subfield>
+
+<subfield code="d">ALRCK</subfield>
+
+<subfield code="d">NLC</subfield>
+
+<subfield code="d">OCLCA</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">XFF</subfield>
+
+<subfield code="d">HCO</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">GILDS</subfield>
+
+<subfield code="d">TXJAS</subfield>
+
+<subfield code="d">OCL</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">AU@</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">BDP</subfield>
+
+<subfield code="d">CaSfIA</subfield>
+
+</datafield>
+
+<datafield tag="016" ind1=" " ind2=" ">
+
+<subfield code="a">(AMICUS)000007063089</subfield>
+
+</datafield>
+
+<datafield tag="016" ind1="7" ind2=" ">
+
+<subfield code="a">8710705</subfield>
+
+<subfield code="2">DNLM</subfield>
+
+</datafield>
+
+<datafield tag="016" ind1="7" ind2=" ">
+
+<subfield code="a">BA00973723</subfield>
+
+<subfield code="2">JP-ToKJK</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0394500504</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780394500508</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0394565002</subfield>
+
+<subfield code="q">(deluxe)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780394565002</subfield>
+
+<subfield code="q">(deluxe)</subfield>
+
+</datafield>
+
+<datafield tag="041" ind1="0" ind2=" ">
+
+<subfield code="a">eng</subfield>
+
+<subfield code="a">fre</subfield>
+
+<subfield code="a">spa</subfield>
+
+<subfield code="a">ita</subfield>
+
+<subfield code="a">ger</subfield>
+
+</datafield>
+
+<datafield tag="050" ind1="0" ind2="4">
+
+<subfield code="a">PE1625</subfield>
+
+<subfield code="b">.R3 1987</subfield>
+
+</datafield>
+
+<datafield tag="055" ind1=" " ind2="4">
+
+<subfield code="a">PE1625 R35 1987</subfield>
+
+</datafield>
+
+<datafield tag="060" ind1="0" ind2="0">
+
+<subfield code="a">PE 1625</subfield>
+
+<subfield code="b">R195 1987</subfield>
+
+</datafield>
+
+<datafield tag="070" ind1="0" ind2=" ">
+
+<subfield code="a">PE1625.R3</subfield>
+
+<subfield code="b">1987</subfield>
+
+</datafield>
+
+<datafield tag="072" ind1=" " ind2="0">
+
+<subfield code="a">X000</subfield>
+
+</datafield>
+
+<datafield tag="072" ind1=" " ind2="7">
+
+<subfield code="a">coll1</subfield>
+
+<subfield code="2">lacc</subfield>
+
+</datafield>
+
+<datafield tag="072" ind1=" " ind2="7">
+
+<subfield code="a">coll2</subfield>
+
+<subfield code="2">lacc</subfield>
+
+</datafield>
+
+<datafield tag="082" ind1="0" ind2="4">
+
+<subfield code="a">423</subfield>
+
+<subfield code="2">19</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">17.06</subfield>
+
+<subfield code="2">bcl</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">18.04</subfield>
+
+<subfield code="2">bcl</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">coll1</subfield>
+
+<subfield code="2">lacc</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">coll2</subfield>
+
+<subfield code="2">lacc</subfield>
+
+</datafield>
+
+<datafield tag="245" ind1="0" ind2="4">
+
+<subfield code="a">The Random House dictionary of the English language /</subfield>
+
+<subfield code="c">Stuart Berg Flexner, editor in chief ; Leonore Crary Hauck, managing editor.</subfield>
+
+</datafield>
+
+<datafield tag="250" ind1=" " ind2=" ">
+
+<subfield code="a">2nd ed., unabridged.</subfield>
+
+</datafield>
+
+<datafield tag="260" ind1=" " ind2=" ">
+
+<subfield code="a">New York :</subfield>
+
+<subfield code="b">Random House,</subfield>
+
+<subfield code="c">©1987.</subfield>
+
+</datafield>
+
+<datafield tag="300" ind1=" " ind2=" ">
+
+<subfield code="a">1 online resource (xlii, 2478, 32 pages :</subfield>
+
+<subfield code="b">illustrations (some color))</subfield>
+
+</datafield>
+
+<datafield tag="336" ind1=" " ind2=" ">
+
+<subfield code="a">text</subfield>
+
+<subfield code="b">txt</subfield>
+
+<subfield code="2">rdacontent</subfield>
+
+</datafield>
+
+<datafield tag="337" ind1=" " ind2=" ">
+
+<subfield code="a">unmediated</subfield>
+
+<subfield code="b">n</subfield>
+
+<subfield code="2">rdamedia</subfield>
+
+</datafield>
+
+<datafield tag="338" ind1=" " ind2=" ">
+
+<subfield code="a">volume</subfield>
+
+<subfield code="b">nc</subfield>
+
+<subfield code="2">rdacarrier</subfield>
+
+</datafield>
+
+<datafield tag="490" ind1="1" ind2=" ">
+
+<subfield code="a">Random House dictionaries</subfield>
+
+</datafield>
+
+<datafield tag="505" ind1="0" ind2=" ">
+
+<subfield code="a">Includes concise French, Spanish, Italian, and German dictionaries and an atlas of the world.</subfield>
+
+</datafield>
+
+<datafield tag="520" ind1=" " ind2=" ">
+
+<subfield code="a">Contains over 315,000 entries with over 50,000 new words and 75,000 new meanings.</subfield>
+
+</datafield>
+
+<datafield tag="590" ind1=" " ind2=" ">
+
+<subfield code="b">Archive</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="0">
+
+<subfield code="a">English language</subfield>
+
+<subfield code="v">Dictionaries.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="2">
+
+<subfield code="a">Dictionaries as Topic.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="6">
+
+<subfield code="a">Anglais (Langue)</subfield>
+
+<subfield code="x">Dictionnaires.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Dictionnaires.</subfield>
+
+<subfield code="2">eclas</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Langues.</subfield>
+
+<subfield code="2">eclas</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">English language.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst00910920</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1="1" ind2="7">
+
+<subfield code="a">Engels.</subfield>
+
+<subfield code="2">gtt</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Anglais (langue)</subfield>
+
+<subfield code="x">Dictionnaires.</subfield>
+
+<subfield code="2">ram</subfield>
+
+</datafield>
+
+<datafield tag="653" ind1=" " ind2=" ">
+
+<subfield code="a">English language -- Dictionaries</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="2">
+
+<subfield code="a">Dictionary.</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Atlases.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst01423875</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Dictionaries.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst01423826</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Atlases.</subfield>
+
+<subfield code="2">lcgft</subfield>
+
+</datafield>
+
+<datafield tag="700" ind1="1" ind2=" ">
+
+<subfield code="a">Flexner, Stuart Berg.</subfield>
+
+</datafield>
+
+<datafield tag="776" ind1="0" ind2="8">
+
+<subfield code="i">Online version:</subfield>
+
+<subfield code="t">Random House dictionary of the English language.</subfield>
+
+<subfield code="b">2nd ed., unabridged.</subfield>
+
+<subfield code="d">New York : Random House, ©1987</subfield>
+
+<subfield code="w">(OCoLC)1016460192</subfield>
+
+</datafield>
+
+<datafield tag="830" ind1=" " ind2="0">
+
+<subfield code="a">Random House dictionaries.</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="2">
+
+<subfield code="3">French equivalent / Équivalent français</subfield>
+
+<subfield code="u">https://bac-lac.on.worldcat.org/oclc/716195039</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="0">
+
+<subfield code="u">https://archive.org/details/randomhousedicti0000unse_v9x2</subfield>
+
+<subfield code="z">Free eBook from the Internet Archive</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="0">
+
+<subfield code="u">https://openlibrary.org/books/OL18314923M</subfield>
+
+<subfield code="z">Additional information and access via Open Library</subfield>
+
+</datafield>
+
+<datafield tag="955" ind1=" " ind2=" ">
+
+<subfield code="q">randomhousedicti0000unse_v9x2</subfield>
+
+<subfield code="b">ark:/13960/t05z2xm8v</subfield>
+
+</datafield>
+
+</record>
+
+</collection>
+

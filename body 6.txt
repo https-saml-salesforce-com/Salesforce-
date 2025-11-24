@@ -1,0 +1,6 @@
+{
+    "network": "network", //query "/api/get/network/"  to get all available networks, and their ID
+    "network_amount": 1,
+    "quantity": 1,
+    "name_on_card":"name_on_card"
+}

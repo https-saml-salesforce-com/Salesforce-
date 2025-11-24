@@ -1,0 +1,9 @@
+POST /api/Airtime_funding/ HTTP/1.1
+Host: www.voicestelecom.com.ng
+Content-Length: 156
+
+{
+    "network":network, //query "/api/get/network/"  to get all available networks, and their ID
+    "mobile_number": mobile_number,
+    "amount": amount
+}

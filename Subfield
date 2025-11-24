@@ -1,0 +1,637 @@
+
+<record xmlns="http://www.loc.gov/MARC21/slim">
+
+<leader>04611cam a2201033 a 4500</leader>
+
+<controlfield tag="001">isbn_9780521484688_q0m2</controlfield>
+
+<controlfield tag="003">CaSfIA</controlfield>
+
+<controlfield tag="005">20240914153638.0</controlfield>
+
+<controlfield tag="006">m o d</controlfield>
+
+<controlfield tag="007">cr||||||||||||</controlfield>
+
+<controlfield tag="008">950519s1995 enka od 000 0 eng </controlfield>
+
+<datafield tag="010" ind1=" " ind2=" ">
+
+<subfield code="z"> 95155383 </subfield>
+
+</datafield>
+
+<datafield tag="035" ind1=" " ind2=" ">
+
+<subfield code="a">(OCoLC)1244512438</subfield>
+
+</datafield>
+
+<datafield tag="040" ind1=" " ind2=" ">
+
+<subfield code="a">DLC</subfield>
+
+<subfield code="b">eng</subfield>
+
+<subfield code="c">DLC</subfield>
+
+<subfield code="d">UKM</subfield>
+
+<subfield code="d">LDL</subfield>
+
+<subfield code="d">UBA</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">BAKER</subfield>
+
+<subfield code="d">NLGGC</subfield>
+
+<subfield code="d">YDXCP</subfield>
+
+<subfield code="d">LVB</subfield>
+
+<subfield code="d">NYDWH</subfield>
+
+<subfield code="d">CNNOR</subfield>
+
+<subfield code="d">HEBIS</subfield>
+
+<subfield code="d">DEBBG</subfield>
+
+<subfield code="d">Y9U</subfield>
+
+<subfield code="d">ZWZ</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">OG#</subfield>
+
+<subfield code="d">BDX</subfield>
+
+<subfield code="d">OCLCF</subfield>
+
+<subfield code="d">BEDGE</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">NLE</subfield>
+
+<subfield code="d">M6U</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">FC@</subfield>
+
+<subfield code="d">LTU</subfield>
+
+<subfield code="d">VPI</subfield>
+
+<subfield code="d">CSO</subfield>
+
+<subfield code="d">HGP</subfield>
+
+<subfield code="d">COF</subfield>
+
+<subfield code="d">TVG</subfield>
+
+<subfield code="d">CNUTO</subfield>
+
+<subfield code="d">YT1</subfield>
+
+<subfield code="d">UV1</subfield>
+
+<subfield code="d">Z5A</subfield>
+
+<subfield code="d">MMV</subfield>
+
+<subfield code="d">PAU</subfield>
+
+<subfield code="d">PIFAG</subfield>
+
+<subfield code="d">NCJ</subfield>
+
+<subfield code="d">NJK</subfield>
+
+<subfield code="d">THHCU</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">DHA</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">GILDS</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">OCL</subfield>
+
+<subfield code="d">QE2</subfield>
+
+<subfield code="d">HUELT</subfield>
+
+<subfield code="d">OCLCA</subfield>
+
+<subfield code="d">JABUK</subfield>
+
+<subfield code="d">CaSfIA</subfield>
+
+</datafield>
+
+<datafield tag="066" ind1=" " ind2=" ">
+
+<subfield code="c">$1</subfield>
+
+</datafield>
+
+<datafield tag="015" ind1=" " ind2=" ">
+
+<subfield code="a">GB9522978</subfield>
+
+<subfield code="2">bnb</subfield>
+
+</datafield>
+
+<datafield tag="015" ind1=" " ind2=" ">
+
+<subfield code="a">GB9532704</subfield>
+
+<subfield code="2">bnb</subfield>
+
+</datafield>
+
+<datafield tag="016" ind1="7" ind2=" ">
+
+<subfield code="a">BA24602293</subfield>
+
+<subfield code="2">JP-ToKJK</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0521484693</subfield>
+
+<subfield code="q">(flexicover)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780521484695</subfield>
+
+<subfield code="q">(flexicover)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0521482364</subfield>
+
+<subfield code="q">(hardback)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780521482363</subfield>
+
+<subfield code="q">(hardback)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0521484219</subfield>
+
+<subfield code="q">(pbk.)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780521484213</subfield>
+
+<subfield code="q">(pbk.)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">0521484685</subfield>
+
+<subfield code="q">(low price edition)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9780521484688</subfield>
+
+<subfield code="q">(low price edition)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">3125179181</subfield>
+
+<subfield code="q">(German pbk.)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9783125179189</subfield>
+
+<subfield code="q">(German pbk.)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">312517919X</subfield>
+
+<subfield code="q">(German hardcover)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9783125179196</subfield>
+
+<subfield code="q">(German hardcover)</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">4943835112</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9784943835110</subfield>
+
+</datafield>
+
+<datafield tag="050" ind1="0" ind2="4">
+
+<subfield code="a">PE1628</subfield>
+
+<subfield code="b">.C23 1995</subfield>
+
+</datafield>
+
+<datafield tag="050" ind1="1" ind2="4">
+
+<subfield code="a">R423 CAM</subfield>
+
+</datafield>
+
+<datafield tag="055" ind1=" " ind2="3">
+
+<subfield code="a">PE1625</subfield>
+
+<subfield code="b">C33 1995</subfield>
+
+</datafield>
+
+<datafield tag="080" ind1=" " ind2=" ">
+
+<subfield code="a">802.0-3</subfield>
+
+</datafield>
+
+<datafield tag="082" ind1="0" ind2="4">
+
+<subfield code="a">423</subfield>
+
+<subfield code="2">20</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">18.04</subfield>
+
+<subfield code="2">bcl</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">AH 16006</subfield>
+
+<subfield code="2">rvk</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">AH 16007</subfield>
+
+<subfield code="2">rvk</subfield>
+
+</datafield>
+
+<datafield tag="084" ind1=" " ind2=" ">
+
+<subfield code="a">HE 305</subfield>
+
+<subfield code="2">rvk</subfield>
+
+</datafield>
+
+<datafield tag="245" ind1="0" ind2="0">
+
+<subfield code="a">Cambridge international dictionary of English.</subfield>
+
+</datafield>
+
+<datafield tag="260" ind1=" " ind2=" ">
+
+<subfield code="a">Cambridge ;</subfield>
+
+<subfield code="a">New York :</subfield>
+
+<subfield code="b">Cambridge University Press,</subfield>
+
+<subfield code="c">1995.</subfield>
+
+</datafield>
+
+<datafield tag="300" ind1=" " ind2=" ">
+
+<subfield code="a">1 online resource (1773 pages :</subfield>
+
+<subfield code="b">illustrations)</subfield>
+
+</datafield>
+
+<datafield tag="336" ind1=" " ind2=" ">
+
+<subfield code="a">text</subfield>
+
+<subfield code="b">txt</subfield>
+
+<subfield code="2">rdacontent</subfield>
+
+</datafield>
+
+<datafield tag="337" ind1=" " ind2=" ">
+
+<subfield code="a">unmediated</subfield>
+
+<subfield code="b">n</subfield>
+
+<subfield code="2">rdamedia</subfield>
+
+</datafield>
+
+<datafield tag="338" ind1=" " ind2=" ">
+
+<subfield code="a">volume</subfield>
+
+<subfield code="b">nc</subfield>
+
+<subfield code="2">rdacarrier</subfield>
+
+</datafield>
+
+<datafield tag="520" ind1=" " ind2=" ">
+
+<subfield code="a">Aimed at learners and users of English as a foreign language from intermediate level upwards.</subfield>
+
+</datafield>
+
+<datafield tag="505" ind1="0" ind2=" ">
+
+<subfield code="a">Pronunciation symbols. How to find words and meanings. How to use the dictionary. Grammar: the parts of speech. Defining vocabulary (list of words used in definitions). Phrase Index (where to find idioms and other phrases). Pictures, language portraits and lists of false friends. Grammar labels. Usage labels and abbreviations.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="0">
+
+<subfield code="a">English language</subfield>
+
+<subfield code="v">Dictionaries.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="0">
+
+<subfield code="a">English language</subfield>
+
+<subfield code="v">Textbooks for foreign speakers.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="6">
+
+<subfield code="a">Anglais (Langue)</subfield>
+
+<subfield code="v">Dictionnaires.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="6">
+
+<subfield code="a">Anglais (Langue)</subfield>
+
+<subfield code="v">Manuels pour allophones.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Dictionnaires.</subfield>
+
+<subfield code="2">eclas</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Langues.</subfield>
+
+<subfield code="2">eclas</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">English language.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst00910920</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1="1" ind2="7">
+
+<subfield code="a">Engels.</subfield>
+
+<subfield code="2">gtt</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Englisch</subfield>
+
+<subfield code="2">gnd</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Wörterbuch</subfield>
+
+<subfield code="2">gnd</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Ingles (Dicionarios)</subfield>
+
+<subfield code="2">larpcal</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Anglais (langue)</subfield>
+
+<subfield code="x">Dictionnaires.</subfield>
+
+<subfield code="2">ram</subfield>
+
+</datafield>
+
+<datafield tag="651" ind1=" " ind2="7">
+
+<subfield code="a">Englisch.</subfield>
+
+<subfield code="2">swd</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">DICTIONARIES.</subfield>
+
+<subfield code="2">unbist</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">ENGLISH LANGUAGE.</subfield>
+
+<subfield code="2">unbist</subfield>
+
+</datafield>
+
+<datafield tag="653" ind1="0" ind2=" ">
+
+<subfield code="a">English language</subfield>
+
+<subfield code="a">Dictionaries.</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Textbooks.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst01423863</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="4">
+
+<subfield code="a">Wörterbuch (Sprachwörterbuch)</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Dictionaries.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst01423826</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Textbooks</subfield>
+
+<subfield code="v">for foreign speakers.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst01423864</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Dictionaries.</subfield>
+
+<subfield code="2">lcgft</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Textbooks.</subfield>
+
+<subfield code="2">lcgft</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="2">
+
+<subfield code="3">Publisher description</subfield>
+
+<subfield code="u">http://catdir.loc.gov/catdir/description/cam027/95155383.html</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="0">
+
+<subfield code="u">https://archive.org/details/isbn_9780521484688_q0m2</subfield>
+
+<subfield code="z">Free eBook from the Internet Archive</subfield>
+
+</datafield>
+
+<datafield tag="880" ind1=" " ind2=" ">
+
+<subfield code="6">500-00/$1</subfield>
+
+<subfield code="a">In Japan sold with a pamphlet "手引書" (12 p., 21 cm), written by Shimaoka Takashi, published by Maruzen.</subfield>
+
+</datafield>
+
+<datafield tag="955" ind1=" " ind2=" ">
+
+<subfield code="q">isbn_9780521484688_q0m2</subfield>
+
+<subfield code="b">ark:/13960/t05z3k12k</subfield>
+
+</datafield>
+
+</record>
+

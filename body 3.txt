@@ -1,0 +1,5 @@
+{
+    "cablename": cablename id,
+    "cableplan":cableplan id,
+    "smart_card_number": meter
+}

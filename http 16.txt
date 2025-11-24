@@ -1,0 +1,8 @@
+POST /api/epin/ HTTP/1.1
+Host: www.voicestelecom.com.ng
+Content-Length: 73
+
+{
+    "exam_name": exam_name, // WAEC or NECO
+    "quantity": quantity,
+}

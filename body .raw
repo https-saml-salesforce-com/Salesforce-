@@ -1,0 +1,6 @@
+{
+    "network": network_id, //query "/api/get/network/"  to get all available networks, and their ID
+    "mobile_number": "09134345119",
+    "plan": plan_id, //query "/api/network/ Plans" endpoint to get all available data plans
+    "Ported_number": true
+}

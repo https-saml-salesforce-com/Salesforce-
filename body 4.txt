@@ -1,0 +1,5 @@
+{ "disco_name": disco,
+"amount" : amount to pay,
+"meter_number": meter number, 
+"MeterType": meter type id (PREPAID:1,POSTAID:2) 
+}

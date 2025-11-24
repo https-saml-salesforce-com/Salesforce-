@@ -1,0 +1,11 @@
+POST /api/billpayment/ HTTP/1.1
+Host: www.voicestelecom.com.ng
+Authorization: Token 66f2e5c39ac8640f13cd888f161385b12f7e5e92
+Content-Type: application/json
+Content-Length: 137
+
+{ "disco_name": disco,
+"amount" : amount to pay,
+"meter_number": meter number, 
+"MeterType": meter type id (PREPAID:1,POSTAID:2) 
+}
