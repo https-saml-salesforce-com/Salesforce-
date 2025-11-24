@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="GTAmodding-re3_-_2021-09-06_14-11-00.bundle" source="original">
+    <mtime>1630973095</mtime>
+    <size>59642554</size>
+    <md5>f3741e1f66fac83f9a08cc4cb2320126</md5>
+    <crc32>dbd49cc4</crc32>
+    <sha1>8c59279a0fbf9e078cc41141ff11e72d890f75f8</sha1>
+    <format>Unknown</format>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1630973697</mtime>
+    <size>12475</size>
+    <md5>3c35414345f617d7a03143a89c63b426</md5>
+    <crc32>244b9d4c</crc32>
+    <sha1>bfbb206cf0d7f12e39fc60e95010a386c44898ea</sha1>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+  </file>
+  <file name="cover.jpg" source="original">
+    <mtime>1630973110</mtime>
+    <size>26259</size>
+    <md5>20573bfc60c7274a99e3099b2ec693ae</md5>
+    <crc32>d8917db1</crc32>
+    <sha1>c5a71a6fa708bbdca17b325b98c8374f53c79763</sha1>
+    <format>JPEG</format>
+    <rotation>0</rotation>
+  </file>
+  <file name="cover_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>cover.jpg</original>
+    <mtime>1630973587</mtime>
+    <size>6741</size>
+    <md5>b95469566d0d383b51c4058599388965</md5>
+    <crc32>f52cf081</crc32>
+    <sha1>55f27606102190c41857e2b28eb70de111dbc016</sha1>
+  </file>
+  <file name="github.com-GTAmodding-re3_-_2021-09-06_14-11-00_archive.torrent" source="metadata">
+    <btih>b3453e023e4acdcbac3bc5b336b92a2bcb43f798</btih>
+    <mtime>1735933821</mtime>
+    <size>4754</size>
+    <md5>81e8df4c23d913ef7f4f0d5e891b71a3</md5>
+    <crc32>5e09925d</crc32>
+    <sha1>c689c6bc7c4a2b8acd6e28ea3c1a272790072245</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="github.com-GTAmodding-re3_-_2021-09-06_14-11-00_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>64fe4fd4c22338c8305bfd21c1e67840</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="github.com-GTAmodding-re3_-_2021-09-06_14-11-00_meta.sqlite" source="original">
+    <mtime>1630973262</mtime>
+    <size>53248</size>
+    <md5>a4a82150c4b8218fc93fb2796445e5c9</md5>
+    <crc32>bc05411f</crc32>
+    <sha1>7539647f55d9e9c83ac4e6777f8b334872641b7f</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="github.com-GTAmodding-re3_-_2021-09-06_14-11-00_meta.xml" source="original">
+    <mtime>1735933820</mtime>
+    <size>15275</size>
+    <md5>7c12ffdd710d756275a0be57225f8f3e</md5>
+    <crc32>d2fc460f</crc32>
+    <sha1>c8e4e1958cb207236de3a498cf5edabd0a1fee9a</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="github.com-GTAmodding-re3_-_2021-09-06_14-11-00_reviews.xml" source="original">
+    <mtime>1735933820</mtime>
+    <size>1401</size>
+    <md5>86f8f9696f98549b78da5348c3224f65</md5>
+    <crc32>f90e3bc1</crc32>
+    <sha1>f591e7145605d7a0d8b88c197504f652fe3b0f04</sha1>
+    <format>Metadata</format>
+  </file>
+</files>

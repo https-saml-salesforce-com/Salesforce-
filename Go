@@ -1,0 +1,10 @@
+import (
+	"database/sql"
+
+	_ "github.com/lib/pq"
+)
+
+func main() {
+	connStr := "user='koyeb-adm' password=npg_9EaL6IVrOgxb host=ep-nameless-sun-a4c385ve.us-east-1.pg.koyeb.app dbname='Abundance%20Marble%20'"
+	db, err := sql.Open("postgres", connStr)
+}

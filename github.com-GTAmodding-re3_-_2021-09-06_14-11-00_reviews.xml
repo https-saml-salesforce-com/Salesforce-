@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviews itemIdentifier="github.com-GTAmodding-re3_-_2021-09-06_14-11-00">
+  <review>
+    <reviewtitle>Latest backup before they got taken down</reviewtitle>
+    <reviewbody>I have this in my own self-hosted instance of Gitea now with only 6 commands. Thanks sharer!</reviewbody>
+    <stars>5</stars>
+    <reviewer>Trevo525</reviewer>
+    <reviewdate>2021-10-05 05:39:16</reviewdate>
+    <createdate>2021-10-05 05:39:16</createdate>
+    <reviewer_itemname>@trevo525</reviewer_itemname>
+  </review>
+  <review>
+    <reviewtitle>revc</reviewtitle>
+    <reviewbody>how to checkout the miami branch (revc) ?</reviewbody>
+    <stars>5</stars>
+    <reviewer>dzfacts</reviewer>
+    <reviewdate>2021-11-14 15:20:56</reviewdate>
+    <createdate>2021-11-14 15:20:56</createdate>
+    <reviewer_itemname>@dzfacts</reviewer_itemname>
+  </review>
+  <review>
+    <reviewtitle>How to checkout miami ref</reviewtitle>
+    <reviewbody>git init reVC
+cd reVC
+git fetch -u ../GTAmodding-re3_-_2021-09-06_14-11-00.bundle 'refs/*:refs/*'
+git checkout origin/miami</reviewbody>
+    <stars>5</stars>
+    <reviewer>d3suu</reviewer>
+    <reviewdate>2023-01-24 23:28:33</reviewdate>
+    <createdate>2023-01-24 23:28:33</createdate>
+    <reviewer_itemname>@d3suu</reviewer_itemname>
+  </review>
+  <info>
+    <num_reviews>3</num_reviews>
+    <avg_rating>5.00</avg_rating>
+  </info>
+</reviews>

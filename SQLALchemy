@@ -1,0 +1,11 @@
+from sqlalchemy import URL, create_engine
+
+connection_string = URL.create(
+    'postgresql',
+    username='koyeb-adm',
+    password='npg_9EaL6IVrOgxb',
+    host='ep-nameless-sun-a4c385ve.us-east-1.pg.koyeb.app',
+    database='Abundance%20Marble%20',
+)
+
+engine = create_engine(connection_string)
