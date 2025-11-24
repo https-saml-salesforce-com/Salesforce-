@@ -1,0 +1,14 @@
+# Salesforce Integration Requirements
+# Install with: pip install -r requirements-salesforce.txt
+
+# Salesforce API client
+simple-salesforce>=1.12.4
+
+# PostgreSQL database adapter
+psycopg2-binary>=2.9.9
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Additional utilities
+requests>=2.31.0

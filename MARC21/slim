@@ -1,0 +1,201 @@
+
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+
+<record>
+
+<leader>01041cam a2200301M 4500</leader>
+
+<controlfield tag="001">lifetimesoffrayj0000geig</controlfield>
+
+<controlfield tag="003">CaSfIA</controlfield>
+
+<controlfield tag="005">20240522105718.0</controlfield>
+
+<controlfield tag="006">m o d</controlfield>
+
+<controlfield tag="007">cr||||||||||||</controlfield>
+
+<controlfield tag="008">910524m19599999dcu o 000 0 eng d</controlfield>
+
+<datafield tag="035" ind1=" " ind2=" ">
+
+<subfield code="a">(OCoLC)1245532020</subfield>
+
+</datafield>
+
+<datafield tag="040" ind1=" " ind2=" ">
+
+<subfield code="a">CST</subfield>
+
+<subfield code="b">eng</subfield>
+
+<subfield code="c">CST</subfield>
+
+<subfield code="d">OCLCO</subfield>
+
+<subfield code="d">OCLCF</subfield>
+
+<subfield code="d">OCLCA</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">OCL</subfield>
+
+<subfield code="d">DGU</subfield>
+
+<subfield code="d">VVC</subfield>
+
+<subfield code="d">CaSfIA</subfield>
+
+</datafield>
+
+<datafield tag="050" ind1="0" ind2=" ">
+
+<subfield code="a">F864</subfield>
+
+<subfield code="b">.S463</subfield>
+
+</datafield>
+
+<datafield tag="082" ind1="1" ind2="4">
+
+<subfield code="a">920</subfield>
+
+<subfield code="b">S488ge</subfield>
+
+</datafield>
+
+<datafield tag="100" ind1="1" ind2=" ">
+
+<subfield code="a">Geiger, Maynard J.,</subfield>
+
+<subfield code="d">1901-1977.</subfield>
+
+</datafield>
+
+<datafield tag="245" ind1="1" ind2="4">
+
+<subfield code="a">The life and times of Fray Junipero Serra, O.F.M.</subfield>
+
+</datafield>
+
+<datafield tag="260" ind1=" " ind2=" ">
+
+<subfield code="a">Washington, DC :</subfield>
+
+<subfield code="b">Academy of American Franciscan history,</subfield>
+
+<subfield code="c">1959-</subfield>
+
+</datafield>
+
+<datafield tag="300" ind1=" " ind2=" ">
+
+<subfield code="a">1 online resource (2 volumes.)</subfield>
+
+</datafield>
+
+<datafield tag="336" ind1=" " ind2=" ">
+
+<subfield code="a">text</subfield>
+
+<subfield code="b">txt</subfield>
+
+<subfield code="2">rdacontent</subfield>
+
+</datafield>
+
+<datafield tag="337" ind1=" " ind2=" ">
+
+<subfield code="a">unmediated</subfield>
+
+<subfield code="b">n</subfield>
+
+<subfield code="2">rdamedia</subfield>
+
+</datafield>
+
+<datafield tag="338" ind1=" " ind2=" ">
+
+<subfield code="a">volume</subfield>
+
+<subfield code="b">nc</subfield>
+
+<subfield code="2">rdacarrier</subfield>
+
+</datafield>
+
+<datafield tag="490" ind1="1" ind2=" ">
+
+<subfield code="a">Academy of American Franciscan History. Monograph series ;</subfield>
+
+<subfield code="v">5</subfield>
+
+</datafield>
+
+<datafield tag="590" ind1=" " ind2=" ">
+
+<subfield code="b">Archive</subfield>
+
+</datafield>
+
+<datafield tag="600" ind1="1" ind2="0">
+
+<subfield code="a">Serra, Junípero,</subfield>
+
+<subfield code="c">Saint,</subfield>
+
+<subfield code="d">1713-1784.</subfield>
+
+</datafield>
+
+<datafield tag="600" ind1="1" ind2="7">
+
+<subfield code="a">Serra, Junípero,</subfield>
+
+<subfield code="c">Saint,</subfield>
+
+<subfield code="d">1713-1784.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst00041827</subfield>
+
+</datafield>
+
+<datafield tag="830" ind1=" " ind2="0">
+
+<subfield code="a">Monograph series (Academy of American Franciscan History) ;</subfield>
+
+<subfield code="v">5.</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="0">
+
+<subfield code="u">https://archive.org/details/lifetimesoffrayj0000geig</subfield>
+
+<subfield code="z">Free eBook from the Internet Archive</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="0">
+
+<subfield code="u">https://openlibrary.org/books/OL28406353M</subfield>
+
+<subfield code="z">Additional information and access via Open Library</subfield>
+
+</datafield>
+
+<datafield tag="955" ind1=" " ind2=" ">
+
+<subfield code="q">lifetimesoffrayj0000geig</subfield>
+
+<subfield code="b">ark:/13960/t8fg45x30</subfield>
+
+</datafield>
+
+</record>
+
+</collection>
+

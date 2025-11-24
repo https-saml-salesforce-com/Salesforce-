@@ -1,0 +1,16 @@
+Host:
+
+_atproto
+
+Type:
+
+TXT
+
+Value:
+
+did=did:plc:ov2hvai7wsfo7iehnauj5bnw
+
+This should create a domain record at:
+
+_atproto.abundancemarble@marble.com
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1725807306</mtime>
+    <size>6848</size>
+    <md5>afd6e78d36bc1a92f31ec1693ec7b797</md5>
+    <crc32>f958b980</crc32>
+    <sha1>c357b2e398f4ac9f989ecdac44a3173e9c1c0ee0</sha1>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+  </file>
+  <file name="cover.jpg" source="original">
+    <mtime>1611029601</mtime>
+    <size>10027</size>
+    <md5>50956e66335271211626b5cf20bfdb11</md5>
+    <crc32>1d6e3efe</crc32>
+    <sha1>c7916afa8e863be626fc1e7cd0a652a9db385ad3</sha1>
+    <format>JPEG</format>
+    <rotation>0</rotation>
+  </file>
+  <file name="cover_thumb.jpg" source="derivative">
+    <format>JPEG Thumb</format>
+    <original>cover.jpg</original>
+    <mtime>1611029664</mtime>
+    <size>3189</size>
+    <md5>9d00374ce1347769f2ae600d9e45a695</md5>
+    <crc32>0b932d43</crc32>
+    <sha1>a5376ed400b4b00771cccfb68f77a2518bb8155f</sha1>
+  </file>
+  <file name="github.com-iptv-org-iptv_-_2021-01-19_02-51-26_archive.torrent" source="metadata">
+    <btih>4465a7e9d8da425a4e88e1e9a234cc15785d181f</btih>
+    <mtime>1744957189</mtime>
+    <size>3926</size>
+    <md5>f01bbdcccd953d02ee22dddf701f6f39</md5>
+    <crc32>4d8431f9</crc32>
+    <sha1>feacbb4926361a7c350199b99f32d34b91ed5679</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="github.com-iptv-org-iptv_-_2021-01-19_02-51-26_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>b7cfbe47823fed94bfe13f9405e8f0aa</md5>
+    <summation>md5</summation>
+  </file>
+  <file name="github.com-iptv-org-iptv_-_2021-01-19_02-51-26_meta.sqlite" source="original">
+    <mtime>1611029612</mtime>
+    <size>245760</size>
+    <md5>6dd6175d884f122a63c8e9fbd28ee0d3</md5>
+    <crc32>623fb9f3</crc32>
+    <sha1>d970e3e89c597c8e8d2139eda038ff83df2f862e</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="github.com-iptv-org-iptv_-_2021-01-19_02-51-26_meta.xml" source="original">
+    <mtime>1740476056</mtime>
+    <size>67733</size>
+    <md5>bcb45910e1e3e8a6930dc1df56fdb35f</md5>
+    <crc32>8718e274</crc32>
+    <sha1>870bf2e7833528879a68bd68246c2351451afdcf</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="iptv-org-iptv_-_2021-01-19_02-51-26.bundle" source="original">
+    <mtime>1611029588</mtime>
+    <size>37621166</size>
+    <md5>921299c329d258bdb1f88e4121ff9795</md5>
+    <crc32>d4421e92</crc32>
+    <sha1>c3a5ace77fa82293126365b86413e1a2315df40f</sha1>
+    <format>Unknown</format>
+  </file>
+</files>

@@ -1,0 +1,223 @@
+
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+
+<record>
+
+<leader>01427cam a2200409 a 4500</leader>
+
+<controlfield tag="001">whydoihavebones0000clel</controlfield>
+
+<controlfield tag="003">CaSfIA</controlfield>
+
+<controlfield tag="005">20240922022600.0</controlfield>
+
+<controlfield tag="006">m o d</controlfield>
+
+<controlfield tag="007">cr||||||||||||</controlfield>
+
+<controlfield tag="008">080303s2009 flua jo 000 0 eng </controlfield>
+
+<datafield tag="010" ind1=" " ind2=" ">
+
+<subfield code="z"> 2008009870</subfield>
+
+</datafield>
+
+<datafield tag="040" ind1=" " ind2=" ">
+
+<subfield code="a">DLC</subfield>
+
+<subfield code="b">eng</subfield>
+
+<subfield code="c">DLC</subfield>
+
+<subfield code="d">BTCTA</subfield>
+
+<subfield code="d">VPL</subfield>
+
+<subfield code="d">KN4</subfield>
+
+<subfield code="d">BDX</subfield>
+
+<subfield code="d">OCLCF</subfield>
+
+<subfield code="d">YDXCP</subfield>
+
+<subfield code="d">AL5CN</subfield>
+
+<subfield code="d">OCLCQ</subfield>
+
+<subfield code="d">JDP</subfield>
+
+<subfield code="d">CaSfIA</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">9781604724356</subfield>
+
+</datafield>
+
+<datafield tag="020" ind1=" " ind2=" ">
+
+<subfield code="z">1604724358</subfield>
+
+</datafield>
+
+<datafield tag="050" ind1="0" ind2="4">
+
+<subfield code="a">QP88.2</subfield>
+
+<subfield code="b">.C54 2009</subfield>
+
+</datafield>
+
+<datafield tag="082" ind1="0" ind2="4">
+
+<subfield code="a">612.7/5</subfield>
+
+<subfield code="2">22</subfield>
+
+</datafield>
+
+<datafield tag="100" ind1="1" ind2=" ">
+
+<subfield code="a">Cleland, Joann.</subfield>
+
+</datafield>
+
+<datafield tag="245" ind1="1" ind2="0">
+
+<subfield code="a">Why do I have bones? /</subfield>
+
+<subfield code="c">J. Cleland.</subfield>
+
+</datafield>
+
+<datafield tag="260" ind1=" " ind2=" ">
+
+<subfield code="a">Vero Beach, FL :</subfield>
+
+<subfield code="b">Rourke Pub.,</subfield>
+
+<subfield code="c">©2009.</subfield>
+
+</datafield>
+
+<datafield tag="300" ind1=" " ind2=" ">
+
+<subfield code="a">1 online resource (1 volume (unpaged) :</subfield>
+
+<subfield code="b">color illustrations)</subfield>
+
+</datafield>
+
+<datafield tag="336" ind1=" " ind2=" ">
+
+<subfield code="a">text</subfield>
+
+<subfield code="b">txt</subfield>
+
+<subfield code="2">rdacontent</subfield>
+
+</datafield>
+
+<datafield tag="337" ind1=" " ind2=" ">
+
+<subfield code="a">unmediated</subfield>
+
+<subfield code="b">n</subfield>
+
+<subfield code="2">rdamedia</subfield>
+
+</datafield>
+
+<datafield tag="338" ind1=" " ind2=" ">
+
+<subfield code="a">volume</subfield>
+
+<subfield code="b">nc</subfield>
+
+<subfield code="2">rdacarrier</subfield>
+
+</datafield>
+
+<datafield tag="520" ind1=" " ind2=" ">
+
+<subfield code="a">Teaches children about their bones.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="0">
+
+<subfield code="a">Bones</subfield>
+
+<subfield code="v">Juvenile literature.</subfield>
+
+</datafield>
+
+<datafield tag="650" ind1=" " ind2="7">
+
+<subfield code="a">Bones.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst00835991</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Juvenile works.</subfield>
+
+<subfield code="2">fast</subfield>
+
+<subfield code="0">(OCoLC)fst01411637</subfield>
+
+</datafield>
+
+<datafield tag="655" ind1=" " ind2="7">
+
+<subfield code="a">Literature.</subfield>
+
+<subfield code="2">lcgft</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="2">
+
+<subfield code="3">Publisher description</subfield>
+
+<subfield code="u">http://catdir.loc.gov/catdir/enhancements/fy1512/2008009870-d.html</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="0">
+
+<subfield code="u">https://archive.org/details/whydoihavebones0000clel</subfield>
+
+<subfield code="z">Free eBook from the Internet Archive</subfield>
+
+</datafield>
+
+<datafield tag="856" ind1="4" ind2="0">
+
+<subfield code="u">https://openlibrary.org/books/OL16657950M</subfield>
+
+<subfield code="z">Additional information and access via Open Library</subfield>
+
+</datafield>
+
+<datafield tag="955" ind1=" " ind2=" ">
+
+<subfield code="q">whydoihavebones0000clel</subfield>
+
+<subfield code="b">ark:/13960/t83k0rv8z</subfield>
+
+</datafield>
+
+</record>
+
+</collection>
+

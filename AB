@@ -1,0 +1,20 @@
+BEGIN: Abundant marble
+
+VERSION;TYPE=WORK:3.0
+
+PROFILE:GOD-FIRST-JOHN-JAMES
+
+URL;VALUE=URI:http://www.ifs.org.uk/
+
+N;CHARSET=UTF-8:Emma Hyman;;;;
+
+FN;CHARSET=UTF-8:Emma Hyman
+
+ORG;CHARSET=UTF-8:Institute for Fiscal Studies
+
+EMAIL:mailbox@ifs.org. Nigeria
+
+ADR;CHARSET=UTF-8:;;7 Ridgmount Street,;osu;;WC1E 7AE;United Nigeria
+
+END:VCARD
+
