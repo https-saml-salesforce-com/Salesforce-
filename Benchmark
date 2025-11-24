@@ -1,0 +1,767 @@
+Benchmark Validation File - DO  MODIFY! If you do, it will successful validation.
+
+Validation Version:    1.3
+
+Program:               y-cruncher v0.7.7 Build 9501
+Tuning:                17-SKX ~ Kotori
+
+User:                  Seungmin Kim   (김승민, Korea Science Academy of KAIST)
+
+Operating System:      Linux 3.10.0-693.21.1.el7.x86_64 x86_64
+
+Processor(s):
+    Name:              Intel(R) Xeon(R) Gold 6140 CPU @ 2.30GHz
+    Logical Cores:     72
+    Physical Cores:    36
+    Sockets:           2
+    NUMA Nodes:        2
+    Base Frequency:    2,294,552,832 Hz
+
+Motherboard:
+    Manufacturer:      Dell Inc.
+    Model:             0CRT1G
+    Version:           A03
+    Serial Number:     Suppressed - Personally identifiable information is opt-in only.
+
+Memory:
+    Usable Memory:     201,226,489,856 ( 187 GiB)
+    Total Memory:      Unable to Detect
+
+Constant:              Euler-Mascheroni Constant
+Algorithm:             Brent-McMillan with Refinement ( n = 2^38 )
+Decimal Digits:        600,000,000,100
+Hexadecimal Digits:    498,289,214,317
+Computation Mode:      Swap Mode
+Threading Mode:        Push Pool  ->  144 / ?  (randomization on)
+Working Memory:        184,490,000,256 ( 172 GiB)
+Total Memory:          184,683,593,728 ( 172 GiB)
+
+Logical Peak Disk Usage:       4,380,033,959,120 (3.98 TiB)
+Logical Disk Bytes Read:       3,146,383,900,360,116 (2.79 PiB)
+Logical Disk Bytes Written:    2,755,641,530,520,684 (2.45 PiB)
+
+Configuration Dump:
+{
+    Constant : {
+        Constant : "gamma"
+        Algorithm : "brent-refined"
+    }
+    ComputeSize : {
+        DecimalDigits : 600000000100
+        EnableHexDigits : "true"
+    }
+    Output : {
+        Path : "/scratch/skim/cruncher"
+        OutputEnable : "true"
+        DigitsPerFile : 0
+    }
+    OutputVerify : "true"
+    Mode : "swap"
+    Parallelism : {
+        TaskDecomposition : 144
+        Framework : "pushpool"
+        WorkerThreads : 0
+        Randomization : "true"
+    }
+    Allocator : {
+        Allocator : "interleave"
+        Hashed : "true"
+        mbind : "false"
+        LockedPages : "attempt"
+        Nodes : [0 1]
+    }
+    BytesPerSeek : 2097152
+    Memory : 184683593728
+    RaidFile : {   //  Raid-File 0/3
+        BufferPerFile : 67108864
+        Lanes : [
+            {   //  Lane 0
+                Type : "raid0"
+                Paths : ["/scratch/skim/cruncher"]
+            }
+        ]
+    }
+}
+
+Start Date:            Mon Aug 19 17:21:44 2019
+End Date:              Sat Jan 11 18:06:11 2020
+
+Total Computation Time:    11899422.659 seconds
+Start-to-End Wall Time:    12534266.770 seconds
+
+CPU Utilization:           451.31 %  +  191.22 % kernel overhead
+Multi-core Efficiency:     6.27 %  +  2.66 % kernel overhead
+
+Last Decimal Digits:
+8545877237 5963734368 5301285102 7569628553 2348507349  :  600,000,000,050
+7038264173 6480785639 4287265421 0039662732 3586642745  :  600,000,000,100
+
+Last Hexadecimal Digits:
+1c32367af1 83531c0e81 f932698b08 2961a940f7 2a27da822c  :  498,289,214,300
+b826271e78 888179d
+
+SHA256-dec(600,000,000,101 - 600,000,000,200): bf8f557f1866bf6ac1721f703d739a50df863711733609aa87dba63626fd993d
+
+Dec Counts: {60000131155,60000117018,60000269699,60000092603,60000134987,59999980320,59999934616,59999831539,59999838110,59999670053}
+Hex Counts: {31143172994,31142830638,31143360047,31143189945,31142949567,31142992347,31142808106,31143214283,31143392619,31143291778,31142986475,31143197083,31143071410,31142981500,31142949301,31142826224}
+
+Dec Hash: Floor(|x| * 10^dec) mod (2^61 - 1) = 735631230566851056
+Hex Hash: Floor(|x| * 16^hex) mod (2^61 - 1) = 2193582895783107632
+
+Spot Check:                 Good through 477,511,832,674
+Timer Sanity Check:         Disabled due to checkpoint restart
+Frequency Sanity Check:     Disabled in this version of y-cruncher
+Reference Clock:            TSC
+Reference Clock 0:          0
+Reference Clock 1:          118,008,250
+Reference Clock 2:          17,337,914
+Is Debugger Present:        Unknown
+Is Contiguous:              No
+ECC Recovered Errors:       0
+Colors:                     Yes
+
+Event Log:
+Mon Aug 19 17:21:44 2019	0.008	Working Memory
+Mon Aug 19 17:22:54 2019	69.998	Working Memory:  172 GiB  (spread: ?)
+Mon Aug 19 17:22:54 2019	69.998	Twiddle Tables
+Mon Aug 19 17:22:54 2019	70.128	Twiddle Tables:  121 MiB  (spread: ?)
+Mon Aug 19 17:22:54 2019	70.128	Allocating I/O Buffers
+Mon Aug 19 17:22:54 2019	70.173	Begin Computation
+Mon Aug 19 17:22:54 2019	70.184	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Mon Aug 19 17:22:54 2019	70.184	Series A and B: A ( 337 ) 0.000%
+Mon Aug 19 17:22:54 2019	70.323	Series A and B: A ( 336 ) 0.000%
+Mon Aug 19 17:22:55 2019	71.397	Series A and B: A ( 335 ) 0.000%
+Mon Aug 19 17:22:56 2019	72.247	Series A and B: A ( 334 ) 0.001%
+Mon Aug 19 17:22:57 2019	72.960	Series A and B: A ( 333 ) 0.001%
+Mon Aug 19 17:22:58 2019	73.695	Series A and B: A ( 332 ) 0.001%
+Mon Aug 19 17:22:59 2019	74.676	Series A and B: A ( 331 ) 0.001%
+Mon Aug 19 17:23:00 2019	75.611	Series A and B: A ( 330 ) 0.002%
+Mon Aug 19 17:23:01 2019	76.472	Series A and B: A ( 329 ) 0.002%
+Mon Aug 19 17:23:01 2019	77.328	Series A and B: A ( 328 ) 0.002%
+Mon Aug 19 17:23:02 2019	78.219	Series A and B: A ( 327 ) 0.002%
+Mon Aug 19 17:23:03 2019	79.097	Series A and B: A ( 326 ) 0.003%
+Mon Aug 19 17:23:04 2019	79.973	Series A and B: A ( 325 ) 0.003%
+Mon Aug 19 17:23:05 2019	80.865	Series A and B: A ( 324 ) 0.003%
+Mon Aug 19 17:23:06 2019	81.730	Series A and B: A ( 323 ) 0.003%
+Mon Aug 19 17:23:07 2019	82.615	Series A and B: A ( 322 ) 0.004%
+Mon Aug 19 17:23:08 2019	83.568	Series A and B: A ( 321 ) 0.004%
+Mon Aug 19 17:23:09 2019	84.543	Series A and B: A ( 320 ) 0.004%
+Mon Aug 19 17:23:10 2019	85.446	Series A and B: A ( 319 ) 0.004%
+Mon Aug 19 17:23:11 2019	86.491	Series A and B: A ( 318 ) 0.005%
+Mon Aug 19 17:23:11 2019	87.420	Series A and B: A ( 317 ) 0.005%
+Mon Aug 19 17:23:12 2019	88.373	Series A and B: A ( 316 ) 0.005%
+Mon Aug 19 17:23:13 2019	89.315	Series A and B: A ( 315 ) 0.005%
+Mon Aug 19 17:23:14 2019	90.256	Series A and B: A ( 314 ) 0.006%
+Mon Aug 19 17:23:15 2019	91.193	Series A and B: A ( 313 ) 0.006%
+Mon Aug 19 17:23:16 2019	92.148	Series A and B: A ( 312 ) 0.006%
+Mon Aug 19 17:23:17 2019	93.102	Series A and B: A ( 311 ) 0.006%
+Mon Aug 19 17:23:18 2019	94.083	Series A and B: A ( 310 ) 0.007%
+Mon Aug 19 17:23:19 2019	95.075	Series A and B: A ( 309 ) 0.007%
+Mon Aug 19 17:23:20 2019	96.079	Series A and B: A ( 308 ) 0.007%
+Mon Aug 19 17:23:21 2019	97.158	Series A and B: A ( 307 ) 0.007%
+Mon Aug 19 17:23:22 2019	98.154	Series A and B: E ( 306 ) 0.008%
+Mon Aug 19 17:23:23 2019	99.172	Series A and B: E ( 305 ) 0.008%
+Mon Aug 19 17:23:24 2019	100.209	Series A and B: E ( 304 ) 0.008%
+Mon Aug 19 17:23:25 2019	101.288	Series A and B: E ( 303 ) 0.008%
+Mon Aug 19 17:23:27 2019	102.439	Series A and B: E ( 302 ) 0.009%
+Mon Aug 19 17:23:28 2019	103.550	Series A and B: E ( 301 ) 0.009%
+Mon Aug 19 17:23:29 2019	104.705	Series A and B: E ( 300 ) 0.009%
+Mon Aug 19 17:23:30 2019	105.930	Series A and B: E ( 299 ) 0.010%
+Mon Aug 19 17:23:31 2019	107.214	Series A and B: E ( 298 ) 0.010%
+Mon Aug 19 17:23:33 2019	108.534	Series A and B: E ( 297 ) 0.010%
+Mon Aug 19 17:23:34 2019	109.967	Series A and B: E ( 296 ) 0.011%
+Mon Aug 19 17:23:35 2019	111.368	Series A and B: E ( 295 ) 0.011%
+Mon Aug 19 17:23:37 2019	112.794	Series A and B: E ( 294 ) 0.011%
+Mon Aug 19 17:23:38 2019	114.294	Series A and B: E ( 293 ) 0.012%
+Mon Aug 19 17:23:40 2019	115.836	Series A and B: E ( 292 ) 0.012%
+Mon Aug 19 17:23:41 2019	117.404	Series A and B: E ( 291 ) 0.013%
+Mon Aug 19 17:23:43 2019	119.104	Series A and B: E ( 290 ) 0.013%
+Mon Aug 19 17:23:45 2019	120.819	Series A and B: E ( 289 ) 0.013%
+Mon Aug 19 17:23:47 2019	122.512	Series A and B: E ( 288 ) 0.014%
+Mon Aug 19 17:23:48 2019	124.213	Series A and B: E ( 287 ) 0.014%
+Mon Aug 19 17:23:50 2019	126.144	Series A and B: E ( 286 ) 0.015%
+Mon Aug 19 17:23:52 2019	128.069	Series A and B: E ( 285 ) 0.015%
+Mon Aug 19 17:23:54 2019	130.049	Series A and B: E ( 284 ) 0.016%
+Mon Aug 19 17:23:56 2019	132.074	Series A and B: E ( 283 ) 0.016%
+Mon Aug 19 17:23:58 2019	134.259	Series A and B: E ( 282 ) 0.017%
+Mon Aug 19 17:24:01 2019	136.488	Series A and B: E ( 281 ) 0.017%
+Mon Aug 19 17:24:03 2019	138.741	Series A and B: E ( 280 ) 0.018%
+Mon Aug 19 17:24:05 2019	140.970	Series A and B: E ( 279 ) 0.019%
+Mon Aug 19 17:24:07 2019	143.219	Series A and B: E ( 278 ) 0.019%
+Mon Aug 19 17:24:10 2019	145.705	Series A and B: E ( 277 ) 0.020%
+Mon Aug 19 17:24:12 2019	148.243	Series A and B: E ( 276 ) 0.021%
+Mon Aug 19 17:24:15 2019	150.852	Series A and B: E ( 275 ) 0.021%
+Mon Aug 19 17:24:18 2019	153.435	Series A and B: E ( 274 ) 0.022%
+Mon Aug 19 17:24:20 2019	156.206	Series A and B: E ( 273 ) 0.023%
+Mon Aug 19 17:24:23 2019	159.067	Series A and B: E ( 272 ) 0.023%
+Mon Aug 19 17:24:26 2019	161.953	Series A and B: E ( 271 ) 0.024%
+Mon Aug 19 17:24:29 2019	164.993	Series A and B: E ( 270 ) 0.025%
+Mon Aug 19 17:24:32 2019	168.257	Series A and B: E ( 269 ) 0.026%
+Mon Aug 19 17:24:36 2019	171.537	Series A and B: E ( 268 ) 0.027%
+Mon Aug 19 17:24:39 2019	174.841	Series A and B: E ( 267 ) 0.028%
+Mon Aug 19 17:24:42 2019	178.146	Series A and B: E ( 266 ) 0.028%
+Mon Aug 19 17:24:46 2019	181.631	Series A and B: E ( 265 ) 0.029%
+Mon Aug 19 17:24:49 2019	185.417	Series A and B: E ( 264 ) 0.030%
+Mon Aug 19 17:24:53 2019	189.300	Series A and B: E ( 263 ) 0.031%
+Mon Aug 19 17:24:57 2019	193.320	Series A and B: E ( 262 ) 0.032%
+Mon Aug 19 17:25:02 2019	197.493	Series A and B: E ( 261 ) 0.033%
+Mon Aug 19 17:25:06 2019	201.707	Series A and B: E ( 260 ) 0.035%
+Mon Aug 19 17:25:10 2019	206.024	Series A and B: E ( 259 ) 0.036%
+Mon Aug 19 17:25:14 2019	210.341	Series A and B: E ( 258 ) 0.037%
+Mon Aug 19 17:25:19 2019	214.822	Series A and B: E ( 257 ) 0.038%
+Mon Aug 19 17:25:24 2019	219.702	Series A and B: E ( 256 ) 0.039%
+Mon Aug 19 17:25:29 2019	224.683	Series A and B: E ( 255 ) 0.041%
+Mon Aug 19 17:25:34 2019	230.068	Series A and B: E ( 254 ) 0.042%
+Mon Aug 19 17:25:40 2019	235.443	Series A and B: E ( 253 ) 0.043%
+Mon Aug 19 17:25:45 2019	240.877	Series A and B: E ( 252 ) 0.045%
+Mon Aug 19 17:25:51 2019	246.596	Series A and B: E ( 251 ) 0.046%
+Mon Aug 19 17:25:56 2019	252.393	Series A and B: E ( 250 ) 0.048%
+Mon Aug 19 17:26:02 2019	258.314	Series A and B: E ( 249 ) 0.050%
+Mon Aug 19 17:26:09 2019	264.629	Series A and B: E ( 248 ) 0.051%
+Mon Aug 19 17:26:15 2019	271.250	Series A and B: E ( 247 ) 0.053%
+Mon Aug 19 17:26:22 2019	277.853	Series A and B: E ( 246 ) 0.055%
+Mon Aug 19 17:26:28 2019	284.414	Series A and B: E ( 245 ) 0.056%
+Mon Aug 19 17:26:35 2019	291.206	Series A and B: E ( 244 ) 0.058%
+Mon Aug 19 17:26:43 2019	298.736	Series A and B: E ( 243 ) 0.060%
+Mon Aug 19 17:26:51 2019	306.551	Series A and B: E ( 242 ) 0.062%
+Mon Aug 19 17:26:59 2019	314.422	Series A and B: E ( 241 ) 0.064%
+Mon Aug 19 17:27:07 2019	322.501	Series A and B: E ( 240 ) 0.066%
+Mon Aug 19 17:27:15 2019	330.920	Series A and B: E ( 239 ) 0.069%
+Mon Aug 19 17:27:24 2019	339.722	Series A and B: E ( 238 ) 0.071%
+Mon Aug 19 17:27:33 2019	348.510	Series A and B: E ( 237 ) 0.073%
+Mon Aug 19 17:27:41 2019	357.415	Series A and B: E ( 236 ) 0.076%
+Mon Aug 19 17:27:51 2019	366.898	Series A and B: E ( 235 ) 0.078%
+Mon Aug 19 17:28:01 2019	377.071	Series A and B: E ( 234 ) 0.081%
+Mon Aug 19 17:28:11 2019	387.354	Series A and B: E ( 233 ) 0.084%
+Mon Aug 19 17:28:22 2019	397.626	Series A and B: E ( 232 ) 0.086%
+Mon Aug 19 17:28:33 2019	408.654	Series A and B: E ( 231 ) 0.089%
+Mon Aug 19 17:28:44 2019	420.273	Series A and B: E ( 230 ) 0.092%
+Mon Aug 19 17:28:56 2019	431.785	Series A and B: E ( 229 ) 0.095%
+Mon Aug 19 17:29:08 2019	443.713	Series A and B: E ( 228 ) 0.098%
+Mon Aug 19 17:29:20 2019	455.989	Series A and B: E ( 227 ) 0.102%
+Mon Aug 19 17:29:33 2019	469.131	Series A and B: E ( 226 ) 0.105%
+Mon Aug 19 17:29:46 2019	482.360	Series A and B: E ( 225 ) 0.108%
+Mon Aug 19 17:30:00 2019	495.778	Series A and B: E ( 224 ) 0.112%
+Mon Aug 19 17:30:13 2019	509.375	Series A and B: E ( 223 ) 0.116%
+Mon Aug 19 17:30:29 2019	524.647	Series A and B: E ( 222 ) 0.120%
+Mon Aug 19 17:30:44 2019	540.386	Series A and B: E ( 221 ) 0.124%
+Mon Aug 19 17:31:00 2019	556.055	Series A and B: E ( 220 ) 0.128%
+Mon Aug 19 17:31:17 2019	572.480	Series A and B: E ( 219 ) 0.132%
+Mon Aug 19 17:31:33 2019	589.232	Series A and B: E ( 218 ) 0.136%
+Mon Aug 19 17:31:51 2019	607.032	Series A and B: E ( 217 ) 0.141%
+Mon Aug 19 17:32:09 2019	624.897	Series A and B: E ( 216 ) 0.146%
+Mon Aug 19 17:32:28 2019	643.474	Series A and B: E ( 215 ) 0.150%
+Mon Aug 19 17:32:47 2019	663.203	Series A and B: E ( 214 ) 0.155%
+Mon Aug 19 17:33:08 2019	683.767	Series A and B: E ( 213 ) 0.161%
+Mon Aug 19 17:33:29 2019	704.528	Series A and B: E ( 212 ) 0.166%
+Mon Aug 19 17:33:50 2019	725.757	Series A and B: E ( 211 ) 0.171%
+Mon Aug 19 17:34:13 2019	748.761	Series A and B: E ( 210 ) 0.177%
+Mon Aug 19 17:34:36 2019	772.248	Series A and B: E ( 209 ) 0.183%
+Mon Aug 19 17:35:00 2019	795.992	Series A and B: E ( 208 ) 0.189%
+Mon Aug 19 17:35:25 2019	821.092	Series A and B: E ( 207 ) 0.195%
+Mon Aug 19 17:35:51 2019	846.461	Series A and B: E ( 206 ) 0.202%
+Mon Aug 19 17:36:18 2019	874.130	Series A and B: E ( 205 ) 0.208%
+Mon Aug 19 17:36:46 2019	902.405	Series A and B: E ( 204 ) 0.215%
+Mon Aug 19 17:37:15 2019	930.453	Series A and B: E ( 203 ) 0.222%
+Mon Aug 19 17:37:43 2019	958.920	Series A and B: E ( 202 ) 0.230%
+Mon Aug 19 17:38:15 2019	991.168	Series A and B: E ( 201 ) 0.237%
+Mon Aug 19 17:38:48 2019	1023.791	Series A and B: E ( 200 ) 0.245%
+Mon Aug 19 17:39:21 2019	1056.843	Series A and B: E ( 199 ) 0.253%
+Mon Aug 19 17:39:55 2019	1091.212	Series A and B: E ( 198 ) 0.262%
+Mon Aug 19 17:40:31 2019	1126.817	Series A and B: E ( 197 ) 0.271%
+Mon Aug 19 17:41:09 2019	1164.439	Series A and B: E ( 196 ) 0.280%
+Mon Aug 19 17:41:47 2019	1202.426	Series A and B: E ( 195 ) 0.289%
+Mon Aug 19 17:42:25 2019	1241.220	Series A and B: E ( 194 ) 0.298%
+Mon Aug 19 17:43:05 2019	1280.833	Series A and B: E ( 193 ) 0.308%
+Mon Aug 19 17:43:48 2019	1324.081	Series A and B: E ( 192 ) 0.319%
+Mon Aug 19 17:44:32 2019	1367.652	Series A and B: E ( 191 ) 0.329%
+Mon Aug 19 17:45:16 2019	1412.184	Series A and B: E ( 190 ) 0.340%
+Mon Aug 19 17:46:02 2019	1457.673	Series A and B: E ( 189 ) 0.351%
+Mon Aug 19 17:46:52 2019	1507.846	Series A and B: E ( 188 ) 0.363%
+Mon Aug 19 17:47:44 2019	1559.699	Series A and B: E ( 187 ) 0.375%
+Mon Aug 19 17:48:36 2019	1611.919	Series A and B: E ( 186 ) 0.387%
+Mon Aug 19 17:49:30 2019	1665.959	Series A and B: E ( 185 ) 0.400%
+Mon Aug 19 17:50:28 2019	1724.373	Series A and B: E ( 184 ) 0.414%
+Mon Aug 19 17:51:28 2019	1784.117	Series A and B: E ( 183 ) 0.427%
+Mon Aug 19 17:52:28 2019	1844.104	Series A and B: E ( 182 ) 0.441%
+Mon Aug 19 17:53:29 2019	1905.091	Series A and B: E ( 181 ) 0.456%
+Mon Aug 19 17:54:35 2019	1970.845	Series A and B: E ( 180 ) 0.471%
+Mon Aug 19 17:55:45 2019	2041.088	Series A and B: E ( 179 ) 0.487%
+Mon Aug 19 17:56:57 2019	2112.906	Series A and B: E ( 178 ) 0.503%
+Mon Aug 19 17:58:10 2019	2185.643	Series A and B: E ( 177 ) 0.520%
+Mon Aug 19 17:59:27 2019	2262.852	Series A and B: E ( 176 ) 0.537%
+Mon Aug 19 18:00:47 2019	2342.426	Series A and B: E ( 175 ) 0.555%
+Mon Aug 19 18:02:07 2019	2423.122	Series A and B: E ( 174 ) 0.573%
+Mon Aug 19 18:03:30 2019	2505.529	Series A and B: E ( 173 ) 0.592%
+Mon Aug 19 18:04:54 2019	2590.066	Series A and B: E ( 172 ) 0.612%
+Mon Aug 19 18:06:27 2019	2683.022	Series A and B: E ( 171 ) 0.632%
+Mon Aug 19 18:08:01 2019	2776.847	Series A and B: E ( 170 ) 0.653%
+Mon Aug 19 18:09:37 2019	2873.086	Series A and B: E ( 169 ) 0.674%
+Mon Aug 19 18:11:16 2019	2971.566	Series A and B: E ( 168 ) 0.697%
+Mon Aug 19 18:13:02 2019	3077.507	Series A and B: E ( 167 ) 0.720%
+Mon Aug 19 18:14:53 2019	3188.759	Series A and B: E ( 166 ) 0.744%
+Mon Aug 19 18:16:44 2019	3299.846	Series A and B: E ( 165 ) 0.768%
+Mon Aug 19 18:18:40 2019	3416.346	Series A and B: E ( 164 ) 0.794%
+Mon Aug 19 18:20:39 2019	3534.807	Series A and B: E ( 163 ) 0.820%
+Mon Aug 19 18:22:46 2019	3662.228	Series A and B: E ( 162 ) 0.847%
+Mon Aug 19 18:24:56 2019	3792.108	Series A and B: E ( 161 ) 0.875%
+Mon Aug 19 18:27:07 2019	3923.397	Series A and B: E ( 160 ) 0.904%
+Mon Aug 19 18:29:21 2019	4056.724	Series A and B: E ( 159 ) 0.934%
+Mon Aug 19 18:31:53 2019	4208.670	Series A and B: E ( 158 ) 0.965%
+Mon Aug 19 18:34:26 2019	4362.399	Series A and B: E ( 157 ) 0.997%
+Mon Aug 19 18:37:02 2019	4518.062	Series A and B: E ( 156 ) 1.030%
+Mon Aug 19 18:39:48 2019	4683.519	Series A and B: E ( 155 ) 1.064%
+Mon Aug 19 18:42:36 2019	4851.883	Series A and B: E ( 154 ) 1.099%
+Mon Aug 19 18:45:31 2019	5026.460	Series A and B: E ( 153 ) 1.136%
+Mon Aug 19 18:48:24 2019	5199.980	Series A and B: E ( 152 ) 1.173%
+Mon Aug 19 18:51:24 2019	5379.917	Series A and B: E ( 151 ) 1.212%
+Mon Aug 19 18:54:41 2019	5577.193	Series A and B: E ( 150 ) 1.252%
+Mon Aug 19 18:58:06 2019	5781.581	Series A and B: E ( 149 ) 1.293%
+Mon Aug 19 19:01:30 2019	5986.095	Series A and B: E ( 148 ) 1.336%
+Mon Aug 19 19:05:05 2019	6201.134	Series A and B: E ( 147 ) 1.380%
+Mon Aug 19 19:08:56 2019	6431.926	Series A and B: E ( 146 ) 1.426%
+Mon Aug 19 19:12:55 2019	6670.735	Series A and B: E ( 145 ) 1.473%
+Mon Aug 19 19:16:58 2019	6914.098	Series A and B: E ( 144 ) 1.522%
+Mon Aug 19 19:21:11 2019	7167.247	Series A and B: E ( 143 ) 1.572%
+Mon Aug 19 19:25:30 2019	7426.283	Series A and B: E ( 142 ) 1.624%
+Mon Aug 19 19:30:10 2019	7705.502	Series A and B: E ( 141 ) 1.678%
+Mon Aug 19 19:34:56 2019	7991.984	Series A and B: E ( 140 ) 1.733%
+Mon Aug 19 19:40:37 2019	8332.449	Series A and B: S ( 139 ) 1.790%
+Mon Aug 19 19:56:40 2019	9296.046	Series A and B: S ( 138 ) 1.849%
+Mon Aug 19 20:14:19 2019	10355.216	Series A and B: S ( 137 ) 1.910%
+Mon Aug 19 20:31:56 2019	11411.812	Series A and B: S ( 136 ) 1.973%
+Mon Aug 19 20:48:39 2019	12415.242	Series A and B: S ( 135 ) 2.038%
+Mon Aug 19 21:05:48 2019	13444.229	Series A and B: S ( 134 ) 2.106%
+Mon Aug 19 21:24:52 2019	14588.072	Series A and B: S ( 133 ) 2.175%
+Mon Aug 19 21:43:22 2019	15697.929	Series A and B: S ( 132 ) 2.247%
+Mon Aug 19 22:01:54 2019	16809.577	Series A and B: S ( 131 ) 2.321%
+Mon Aug 19 22:21:06 2019	17962.193	Series A and B: S ( 130 ) 2.397%
+Mon Aug 19 22:41:46 2019	19201.633	Series A and B: S ( 129 ) 2.476%
+Mon Aug 19 23:05:09 2019	20604.483	Series A and B: S ( 128 ) 2.558%
+Mon Aug 19 23:29:56 2019	22091.638	Series A and B: S ( 127 ) 2.642%
+Mon Aug 19 23:57:41 2019	23756.851	Series A and B: S ( 126 ) 2.729%
+Tue Aug 20 00:26:43 2019	25498.596	Series A and B: S ( 125 ) 2.819%
+Tue Aug 20 00:54:36 2019	27172.409	Series A and B: S ( 124 ) 2.911%
+Tue Aug 20 01:21:26 2019	28782.130	Series A and B: S ( 123 ) 3.007%
+Tue Aug 20 01:50:41 2019	30537.125	Series A and B: S ( 122 ) 3.106%
+Tue Aug 20 02:18:41 2019	32216.711	Series A and B: S ( 121 ) 3.208%
+Tue Aug 20 02:57:14 2019	34529.618	Series A and B: S ( 120 ) 3.313%
+Tue Aug 20 03:35:51 2019	36846.696	Series A and B: S ( 119 ) 3.422%
+Tue Aug 20 04:16:51 2019	39307.351	Series A and B: S ( 118 ) 3.535%
+Tue Aug 20 04:57:07 2019	41723.235	Series A and B: S ( 117 ) 3.651%
+Tue Aug 20 05:40:14 2019	44309.843	Series A and B: S ( 116 ) 3.770%
+Tue Aug 20 06:24:16 2019	46951.580	Series A and B: S ( 115 ) 3.894%
+Tue Aug 20 07:09:14 2019	49649.676	Series A and B: S ( 114 ) 4.022%
+Tue Aug 20 07:55:17 2019	52413.067	Series A and B: S ( 113 ) 4.153%
+Tue Aug 20 08:43:37 2019	55312.591	Series A and B: S ( 112 ) 4.289%
+Tue Aug 20 09:31:41 2019	58197.164	Series A and B: S ( 111 ) 4.430%
+Tue Aug 20 10:23:25 2019	61300.596	Series A and B: S ( 110 ) 4.575%
+Tue Aug 20 11:13:24 2019	64299.957	Series A and B: S ( 109 ) 4.724%
+Tue Aug 20 13:11:16 2019	71372.166	Series A and B: S ( 108 ) 4.879%
+Tue Aug 20 15:45:43 2019	80638.729	Series A and B: S ( 107 ) 5.038%
+Tue Aug 20 18:13:23 2019	89498.582	Series A and B: S ( 106 ) 5.202%
+Tue Aug 20 20:42:23 2019	98438.683	Series A and B: S ( 105 ) 5.372%
+Tue Aug 20 23:25:32 2019	108228.006	Series A and B: S ( 104 ) 5.547%
+Wed Aug 21 02:25:32 2019	119028.063	Series A and B: S ( 103 ) 5.728%
+Wed Aug 21 05:13:32 2019	129108.291	Series A and B: S ( 102 ) 5.915%
+Wed Aug 21 08:15:08 2019	140003.430	Series A and B: S ( 101 ) 6.107%
+Wed Aug 21 11:27:05 2019	151521.083	Series A and B: S ( 100 ) 6.306%
+Wed Aug 21 14:48:01 2019	163577.304	Series A and B: S ( 99 ) 6.511%
+Wed Aug 21 19:07:07 2019	179123.290	Series A and B: S ( 98 ) 6.722%
+Wed Aug 21 23:08:08 2019	193584.337	Series A and B: S ( 97 ) 6.940%
+Thu Aug 22 03:18:26 2019	208601.540	Series A and B: S ( 96 ) 7.165%
+Thu Aug 22 07:26:28 2019	223484.049	Series A and B: S ( 95 ) 7.398%
+Thu Aug 22 12:40:30 2019	242326.321	Series A and B: S ( 94 ) 7.637%
+Thu Aug 22 18:10:13 2019	262109.121	Series A and B: S ( 93 ) 7.884%
+Thu Aug 22 23:30:35 2019	281330.447	Series A and B: S ( 92 ) 8.139%
+Fri Aug 23 04:52:53 2019	300669.099	Series A and B: S ( 91 ) 8.402%
+Fri Aug 23 10:59:52 2019	322688.176	Series A and B: S ( 90 ) 8.673%
+Fri Aug 23 17:16:25 2019	345280.749	Series A and B: S ( 89 ) 8.953%
+Fri Aug 23 23:42:31 2019	368446.832	Series A and B: S ( 88 ) 9.241%
+Sat Aug 24 06:25:20 2019	392615.864	Series A and B: S ( 87 ) 9.538%
+Sat Aug 24 14:13:14 2019	420689.593	Series A and B: S ( 86 ) 9.845%
+Sat Aug 24 22:17:03 2019	449718.444	Series A and B: S ( 85 ) 10.161%
+Sun Aug 25 06:27:58 2019	479173.982	Series A and B: S ( 84 ) 10.486%
+Sun Aug 25 14:22:31 2019	507646.994	Series A and B: S ( 83 ) 10.822%
+Sun Aug 25 22:24:18 2019	536553.676	Series A and B: S ( 82 ) 11.168%
+Mon Aug 26 06:46:59 2019	566715.413	Series A and B: S ( 81 ) 11.525%
+Mon Aug 26 15:34:06 2019	598342.211	Series A and B: S ( 80 ) 11.893%
+Tue Aug 27 00:37:31 2019	630947.415	Series A and B: S ( 79 ) 12.272%
+Tue Aug 27 09:51:33 2019	664189.157	Series A and B: S ( 78 ) 12.662%
+Tue Aug 27 19:23:18 2019	698494.061	Series A and B: S ( 77 ) 13.064%
+Wed Aug 28 05:11:30 2019	733786.032	Series A and B: S ( 76 ) 13.479%
+Wed Aug 28 16:27:58 2019	774374.208	Series A and B: S ( 75 ) 13.905%
+Thu Aug 29 03:13:47 2019	813123.397	Series A and B: S ( 74 ) 14.345%
+Thu Aug 29 14:24:44 2019	853379.768	Series A and B: S ( 73 ) 14.798%
+Fri Aug 30 01:44:48 2019	894183.604	Series A and B: S ( 72 ) 15.264%
+Fri Aug 30 13:35:50 2019	936845.465	Series A and B: S ( 71 ) 15.744%
+Sat Aug 31 02:31:45 2019	983401.240	Series A and B: S ( 70 ) 16.239%
+Sat Aug 31 17:27:15 2019	1037130.848	Series A and B: S ( 69 ) 16.747%
+Sun Sep  1 07:33:18 2019	1087893.737	Series A and B: S ( 68 ) 17.271%
+Sun Sep  1 22:04:50 2019	1140185.963	Series A and B: S ( 67 ) 17.810%
+Mon Sep  2 13:12:31 2019	1194646.792	Series A and B: S ( 66 ) 18.365%
+Tue Sep  3 05:27:30 2019	1253146.350	Series A and B: S ( 65 ) 18.936%
+
+Wed Sep  4 06:32:49 2019	0.000	--- Resuming From Checkpoint ---
+Wed Sep  4 06:32:49 2019	0.009	Working Memory
+Wed Sep  4 06:34:06 2019	77.317	Working Memory:  172 GiB  (spread: ?)
+Wed Sep  4 06:34:06 2019	77.318	Twiddle Tables
+Wed Sep  4 06:34:06 2019	77.438	Twiddle Tables:  121 MiB  (spread: ?)
+Wed Sep  4 06:34:06 2019	77.438	Allocating I/O Buffers
+Wed Sep  4 06:34:06 2019	77.480	Begin Computation
+Wed Sep  4 06:34:06 2019	77.481	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Wed Sep  4 06:34:06 2019	77.483	Series A and B: S ( 65 ) 18.936%
+Wed Sep  4 17:28:22 2019	39333.290	Series A and B: S ( 64 ) 19.523%
+Thu Sep  5 11:31:36 2019	104327.524	Series A and B: S ( 63 ) 20.126%
+
+Thu Sep  5 13:42:29 2019	0.000	--- Resuming From Checkpoint ---
+Thu Sep  5 13:42:29 2019	0.009	Working Memory
+Thu Sep  5 13:43:45 2019	75.438	Working Memory:  172 GiB  (spread: ?)
+Thu Sep  5 13:43:45 2019	75.438	Twiddle Tables
+Thu Sep  5 13:43:45 2019	75.543	Twiddle Tables:  121 MiB  (spread: ?)
+Thu Sep  5 13:43:45 2019	75.543	Allocating I/O Buffers
+Thu Sep  5 13:43:45 2019	75.577	Begin Computation
+Thu Sep  5 13:43:45 2019	75.583	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Thu Sep  5 13:43:45 2019	75.586	Series A and B: S ( 63 ) 20.126%
+
+Thu Sep  5 14:13:58 2019	0.000	--- Resuming From Checkpoint ---
+Thu Sep  5 14:13:58 2019	0.003	Working Memory
+Thu Sep  5 14:15:02 2019	64.154	Working Memory:  172 GiB  (spread: ?)
+Thu Sep  5 14:15:02 2019	64.154	Twiddle Tables
+Thu Sep  5 14:15:02 2019	64.259	Twiddle Tables:  121 MiB  (spread: ?)
+Thu Sep  5 14:15:02 2019	64.259	Allocating I/O Buffers
+Thu Sep  5 14:15:02 2019	64.294	Begin Computation
+Thu Sep  5 14:15:02 2019	64.295	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Thu Sep  5 14:15:02 2019	64.296	Series A and B: S ( 63 ) 20.126%
+Fri Sep  6 04:01:18 2019	49640.040	Series A and B: S ( 62 ) 20.747%
+Fri Sep  6 21:06:01 2019	111122.494	Series A and B: S ( 61 ) 21.386%
+Sat Sep  7 16:23:26 2019	180567.863	Series A and B: S ( 60 ) 22.042%
+Sun Sep  8 11:24:30 2019	249031.637	Series A and B: S ( 59 ) 22.717%
+Mon Sep  9 05:45:15 2019	315077.188	Series A and B: S ( 58 ) 23.410%
+Tue Sep 10 00:46:46 2019	383567.515	Series A and B: S ( 57 ) 24.123%
+Tue Sep 10 20:39:09 2019	455110.350	Series A and B: S ( 56 ) 24.855%
+Wed Sep 11 17:06:11 2019	528732.424	Series A and B: S ( 55 ) 25.606%
+Thu Sep 12 14:16:58 2019	604979.998	Series A and B: S ( 54 ) 26.378%
+Fri Sep 13 11:49:03 2019	682504.767	Series A and B: S ( 53 ) 27.171%
+Sat Sep 14 10:09:40 2019	762941.323	Series A and B: S ( 52 ) 27.984%
+Sun Sep 15 10:30:16 2019	850577.654	Series A and B: S ( 51 ) 28.819%
+Mon Sep 16 11:15:58 2019	939719.866	Series A and B: S ( 50 ) 29.675%
+Tue Sep 17 12:12:22 2019	1029503.318	Series A and B: S ( 49 ) 30.554%
+Wed Sep 18 15:39:35 2019	1128336.569	Series A and B: S ( 48 ) 31.454%
+Thu Sep 19 17:35:58 2019	1221719.326	Series A and B: S ( 47 ) 32.378%
+
+Sat Sep 21 07:21:22 2019	0.000	--- Resuming From Checkpoint ---
+Sat Sep 21 07:21:22 2019	0.010	Working Memory
+Sat Sep 21 07:22:24 2019	61.629	Working Memory:  172 GiB  (spread: ?)
+Sat Sep 21 07:22:24 2019	61.629	Twiddle Tables
+Sat Sep 21 07:22:24 2019	61.740	Twiddle Tables:  121 MiB  (spread: ?)
+Sat Sep 21 07:22:24 2019	61.740	Allocating I/O Buffers
+Sat Sep 21 07:22:24 2019	61.777	Begin Computation
+Sat Sep 21 07:22:24 2019	61.777	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Sat Sep 21 07:22:24 2019	61.779	Series A and B: S ( 47 ) 32.378%
+Sun Sep 22 01:02:18 2019	63655.714	Series A and B: S ( 46 ) 33.324%
+Mon Sep 23 03:48:08 2019	160005.673	Series A and B: S ( 45 ) 34.293%
+Tue Sep 24 11:49:37 2019	275294.400	Series A and B: S ( 44 ) 35.286%
+Wed Sep 25 19:16:45 2019	388522.873	Series A and B: S ( 43 ) 36.302%
+Fri Sep 27 03:35:56 2019	504873.563	Series A and B: S ( 42 ) 37.342%
+Sat Sep 28 12:44:28 2019	624185.971	Series A and B: S ( 41 ) 38.407%
+Sun Sep 29 23:20:47 2019	748764.958	Series A and B: S ( 40 ) 39.496%
+Tue Oct  1 10:15:05 2019	874422.573	Series A and B: S ( 39 ) 40.609%
+Thu Oct  3 00:24:00 2019	1011757.914	Series A and B: S ( 38 ) 41.746%
+Fri Oct  4 13:19:16 2019	1144673.706	Series A and B: S ( 37 ) 42.908%
+
+Sat Oct  5 11:12:18 2019	0.000	--- Resuming From Checkpoint ---
+Sat Oct  5 11:12:18 2019	0.005	Working Memory
+Sat Oct  5 11:13:26 2019	67.801	Working Memory:  172 GiB  (spread: ?)
+Sat Oct  5 11:13:26 2019	67.802	Twiddle Tables
+Sat Oct  5 11:13:26 2019	67.919	Twiddle Tables:  121 MiB  (spread: ?)
+Sat Oct  5 11:13:26 2019	67.919	Allocating I/O Buffers
+Sat Oct  5 11:13:26 2019	67.957	Begin Computation
+Sat Oct  5 11:13:26 2019	67.957	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Sat Oct  5 11:13:26 2019	67.959	Series A and B: S ( 37 ) 42.908%
+Sun Oct  6 08:45:44 2019	77606.649	Series A and B: S ( 36 ) 44.095%
+Tue Oct  8 00:20:34 2019	220096.081	Series A and B: S ( 35 ) 45.306%
+Wed Oct  9 16:54:42 2019	366144.505	Series A and B: S ( 34 ) 46.542%
+Fri Oct 11 10:24:40 2019	515542.056	Series A and B: S ( 33 ) 47.802%
+Sun Oct 13 09:39:17 2019	685619.165	Series A and B: S ( 32 ) 49.086%
+Tue Oct 15 05:20:05 2019	842866.872	Series A and B: S ( 31 ) 50.394%
+
+Wed Oct 16 10:22:17 2019	0.000	--- Resuming From Checkpoint ---
+Wed Oct 16 10:22:17 2019	0.006	Working Memory
+Wed Oct 16 10:23:20 2019	63.137	Working Memory:  172 GiB  (spread: ?)
+Wed Oct 16 10:23:20 2019	63.138	Twiddle Tables
+Wed Oct 16 10:23:20 2019	63.250	Twiddle Tables:  121 MiB  (spread: ?)
+Wed Oct 16 10:23:20 2019	63.250	Allocating I/O Buffers
+Wed Oct 16 10:23:20 2019	63.273	Begin Computation
+Wed Oct 16 10:23:20 2019	63.274	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Wed Oct 16 10:23:20 2019	63.275	Series A and B: S ( 31 ) 50.394%
+Thu Oct 17 09:03:37 2019	81679.857	Series A and B: S ( 30 ) 51.726%
+Sat Oct 19 07:40:05 2019	249468.301	Series A and B: S ( 29 ) 53.081%
+Mon Oct 21 10:15:10 2019	431572.815	Series A and B: S ( 28 ) 54.459%
+Wed Oct 23 09:12:31 2019	600614.109	Series A and B: S ( 27 ) 55.860%
+Fri Oct 25 09:44:14 2019	775316.708	Series A and B: S ( 26 ) 57.282%
+Sun Oct 27 11:20:34 2019	957496.768	Series A and B: S ( 25 ) 58.725%
+
+Mon Oct 28 09:48:57 2019	0.000	--- Resuming From Checkpoint ---
+Mon Oct 28 09:48:57 2019	0.007	Working Memory
+Mon Oct 28 09:50:02 2019	64.934	Working Memory:  172 GiB  (spread: ?)
+Mon Oct 28 09:50:02 2019	64.934	Twiddle Tables
+Mon Oct 28 09:50:02 2019	65.048	Twiddle Tables:  121 MiB  (spread: ?)
+Mon Oct 28 09:50:02 2019	65.048	Allocating I/O Buffers
+Mon Oct 28 09:50:02 2019	65.076	Begin Computation
+Mon Oct 28 09:50:02 2019	65.076	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Mon Oct 28 09:50:02 2019	65.077	Series A and B: S ( 25 ) 58.725%
+Tue Oct 29 18:52:48 2019	119031.203	Series A and B: S ( 24 ) 60.188%
+Thu Oct 31 20:22:55 2019	297238.089	Series A and B: S ( 23 ) 61.671%
+Sun Nov  3 04:07:21 2019	497903.813	Series A and B: S ( 22 ) 63.172%
+Tue Nov  5 10:10:13 2019	692476.293	Series A and B: S ( 21 ) 64.691%
+
+Thu Nov  7 11:00:23 2019	0.000	--- Resuming From Checkpoint ---
+Thu Nov  7 11:00:23 2019	0.010	Working Memory
+Thu Nov  7 11:01:27 2019	63.590	Working Memory:  172 GiB  (spread: ?)
+Thu Nov  7 11:01:27 2019	63.590	Twiddle Tables
+Thu Nov  7 11:01:27 2019	63.710	Twiddle Tables:  121 MiB  (spread: ?)
+Thu Nov  7 11:01:27 2019	63.710	Allocating I/O Buffers
+Thu Nov  7 11:01:27 2019	63.738	Begin Computation
+Thu Nov  7 11:01:27 2019	63.739	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Thu Nov  7 11:01:27 2019	63.740	Series A and B: S ( 21 ) 64.691%
+Fri Nov  8 13:31:07 2019	95444.309	Series A and B: S ( 20 ) 66.226%
+Sun Nov 10 23:13:58 2019	303215.247	Series A and B: S ( 19 ) 67.776%
+Wed Nov 13 04:35:59 2019	495335.624	Series A and B: S ( 18 ) 69.339%
+Fri Nov 15 08:00:24 2019	680401.234	Series A and B: S ( 17 ) 70.913%
+Sun Nov 17 18:49:57 2019	892173.941	Series A and B: S ( 16 ) 72.498%
+Wed Nov 20 01:23:43 2019	1088600.290	Series A and B: S ( 15 ) 74.091%
+
+Wed Nov 20 07:24:42 2019	0.000	--- Resuming From Checkpoint ---
+Wed Nov 20 07:24:42 2019	0.009	Working Memory
+Wed Nov 20 07:25:48 2019	65.637	Working Memory:  172 GiB  (spread: ?)
+Wed Nov 20 07:25:48 2019	65.637	Twiddle Tables
+Wed Nov 20 07:25:48 2019	65.754	Twiddle Tables:  121 MiB  (spread: ?)
+Wed Nov 20 07:25:48 2019	65.754	Allocating I/O Buffers
+Wed Nov 20 07:25:48 2019	65.792	Begin Computation
+Wed Nov 20 07:25:48 2019	65.796	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Wed Nov 20 07:25:48 2019	65.797	Series A and B: S ( 15 ) 74.091%
+Fri Nov 22 09:40:43 2019	180960.948	Series A and B: S ( 14 ) 75.690%
+Sun Nov 24 16:46:50 2019	379328.625	Series A and B: S ( 13 ) 77.291%
+Wed Nov 27 00:40:31 2019	580549.533	Series A and B: S ( 12 ) 78.893%
+Fri Nov 29 06:32:09 2019	774447.566	Series A and B: S ( 11 ) 80.497%
+Sun Dec  1 14:53:39 2019	977337.540	Series A and B: S ( 10 ) 82.103%
+Tue Dec  3 19:46:23 2019	1167701.146	Series A and B: S ( 9 ) 83.710%
+
+Sat Dec  7 11:06:05 2019	0.000	--- Resuming From Checkpoint ---
+Sat Dec  7 11:06:05 2019	0.008	Working Memory
+Sat Dec  7 11:07:18 2019	72.734	Working Memory:  172 GiB  (spread: ?)
+Sat Dec  7 11:07:18 2019	72.735	Twiddle Tables
+Sat Dec  7 11:07:18 2019	72.873	Twiddle Tables:  121 MiB  (spread: ?)
+Sat Dec  7 11:07:18 2019	72.873	Allocating I/O Buffers
+Sat Dec  7 11:07:18 2019	72.914	Begin Computation
+Sat Dec  7 11:07:18 2019	72.914	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Sat Dec  7 11:07:18 2019	72.916	Series A and B: S ( 9 ) 83.710%
+Sun Dec  8 17:10:21 2019	108255.558	Series A and B: S ( 8 ) 85.319%
+Wed Dec 11 00:14:36 2019	306511.099	Series A and B: S ( 7 ) 86.931%
+Fri Dec 13 05:27:04 2019	498059.361	Series A and B: S ( 6 ) 88.545%
+Sun Dec 15 11:51:07 2019	693902.378	Series A and B: S ( 5 ) 90.162%
+Tue Dec 17 16:29:49 2019	883423.481	Series A and B: S ( 4 ) 91.783%
+Thu Dec 19 20:49:32 2019	1071806.691	Series A and B: S ( 3 ) 93.407%
+Sun Dec 22 02:20:38 2019	1264472.400	Series A and B: S ( 2 ) 95.037%
+
+Mon Dec 23 12:38:10 2019	0.000	--- Resuming From Checkpoint ---
+Mon Dec 23 12:38:10 2019	0.009	Working Memory
+Mon Dec 23 12:39:11 2019	61.253	Working Memory:  172 GiB  (spread: ?)
+Mon Dec 23 12:39:11 2019	61.253	Twiddle Tables
+Mon Dec 23 12:39:11 2019	61.363	Twiddle Tables:  121 MiB  (spread: ?)
+Mon Dec 23 12:39:11 2019	61.363	Allocating I/O Buffers
+Mon Dec 23 12:39:11 2019	61.387	Begin Computation
+Mon Dec 23 12:39:11 2019	61.387	Series A and B...  1,093,123,291,027 terms  (Expansion Factor = 63.823)
+Mon Dec 23 12:39:11 2019	61.388	Series A and B: S ( 2 ) 95.037%
+Wed Dec 25 09:24:48 2019	161198.244	Series A and B: S ( 1 ) 96.674%
+Fri Dec 27 13:28:10 2019	348600.331	Series A and B: S ( 0 ) 98.322%
+Sun Dec 29 21:14:11 2019	549360.590	Finishing Series
+Mon Dec 30 03:10:36 2019	570746.174	Large Division
+Mon Dec 30 12:24:32 2019	603982.190	Squaring...
+Mon Dec 30 13:24:33 2019	607583.073	Series C...  38,558,426,022 terms  (Expansion Factor = 10.871)
+Mon Dec 30 13:24:33 2019	607583.073	Series: A ( 31 ) 0.000%
+Mon Dec 30 13:25:11 2019	607621.540	Series: A ( 30 ) 0.665%
+Mon Dec 30 13:27:41 2019	607770.650	Series: A ( 29 ) 2.681%
+Mon Dec 30 13:30:28 2019	607937.952	Series: A ( 28 ) 4.698%
+Mon Dec 30 13:33:22 2019	608112.372	Series: A ( 27 ) 6.716%
+Mon Dec 30 13:36:23 2019	608293.458	Series: A ( 26 ) 8.734%
+Mon Dec 30 13:39:32 2019	608482.140	Series: A ( 25 ) 10.752%
+Mon Dec 30 13:42:43 2019	608673.548	Series: A ( 24 ) 12.772%
+Mon Dec 30 13:46:01 2019	608871.330	Series: A ( 23 ) 14.791%
+Mon Dec 30 13:49:15 2019	609064.901	Series: A ( 22 ) 16.812%
+Mon Dec 30 13:52:28 2019	609257.762	Series: A ( 21 ) 18.833%
+Mon Dec 30 13:55:53 2019	609462.809	Series: A ( 20 ) 20.854%
+Mon Dec 30 13:59:11 2019	609661.099	Series: A ( 19 ) 22.877%
+Mon Dec 30 14:02:32 2019	609861.901	Series: A ( 18 ) 24.900%
+Mon Dec 30 14:05:59 2019	610068.793	Series: E ( 17 ) 26.923%
+Mon Dec 30 14:09:53 2019	610302.728	Series: S ( 16 ) 28.807%
+Mon Dec 30 14:17:19 2019	610748.978	Series: S ( 15 ) 30.832%
+Mon Dec 30 14:25:19 2019	611228.734	Series: S ( 14 ) 33.010%
+Mon Dec 30 14:33:57 2019	611747.081	Series: S ( 13 ) 35.354%
+Mon Dec 30 14:43:05 2019	612295.522	Series: S ( 12 ) 37.880%
+Mon Dec 30 14:53:33 2019	612923.033	Series: S ( 11 ) 40.603%
+Mon Dec 30 15:04:17 2019	613566.696	Series: S ( 10 ) 43.543%
+Mon Dec 30 15:16:44 2019	614314.248	Series: S ( 9 ) 46.721%
+Mon Dec 30 15:29:22 2019	615072.548	Series: S ( 8 ) 50.160%
+Mon Dec 30 15:48:40 2019	616229.940	Series: S ( 7 ) 53.888%
+Mon Dec 30 16:08:44 2019	617433.655	Series: S ( 6 ) 57.938%
+Mon Dec 30 16:31:16 2019	618786.438	Series: S ( 5 ) 62.347%
+Mon Dec 30 17:22:36 2019	621866.529	Series: S ( 4 ) 67.160%
+Mon Dec 30 18:42:25 2019	626654.569	Series: S ( 3 ) 72.431%
+Mon Dec 30 20:05:45 2019	631655.039	Series: S ( 2 ) 78.229%
+Mon Dec 30 21:44:32 2019	637582.245	Series: S ( 1 ) 84.646%
+Mon Dec 30 23:33:25 2019	644114.766	Series: S ( 0 ) 91.812%
+Tue Dec 31 03:25:51 2019	658061.256	Large Division
+Tue Dec 31 04:58:01 2019	663591.242	Substracting
+Tue Dec 31 05:12:54 2019	664484.452	-684 ArcCoth( 26 ):
+Tue Dec 31 05:12:54 2019	664484.452	Series CommonP2B3...  212,018,127,806 terms  (Expansion Factor = 4.955)
+Tue Dec 31 05:12:54 2019	664484.452	Series: A ( 53 ) 0.000%
+Tue Dec 31 05:12:55 2019	664484.652	Series: A ( 52 ) 0.001%
+Tue Dec 31 05:12:55 2019	664485.205	Series: A ( 51 ) 0.005%
+Tue Dec 31 05:12:56 2019	664485.830	Series: A ( 50 ) 0.008%
+Tue Dec 31 05:12:56 2019	664486.489	Series: A ( 49 ) 0.011%
+Tue Dec 31 05:12:57 2019	664487.163	Series: E ( 48 ) 0.015%
+Tue Dec 31 05:12:58 2019	664487.870	Series: E ( 47 ) 0.018%
+Tue Dec 31 05:12:59 2019	664488.612	Series: E ( 46 ) 0.021%
+Tue Dec 31 05:12:59 2019	664489.494	Series: E ( 45 ) 0.026%
+Tue Dec 31 05:13:00 2019	664490.525	Series: E ( 44 ) 0.031%
+Tue Dec 31 05:13:02 2019	664491.687	Series: E ( 43 ) 0.037%
+Tue Dec 31 05:13:03 2019	664493.161	Series: E ( 42 ) 0.044%
+Tue Dec 31 05:13:05 2019	664494.819	Series: E ( 41 ) 0.052%
+Tue Dec 31 05:13:07 2019	664496.857	Series: E ( 40 ) 0.063%
+Tue Dec 31 05:13:09 2019	664499.280	Series: E ( 39 ) 0.075%
+Tue Dec 31 05:13:12 2019	664502.103	Series: E ( 38 ) 0.090%
+Tue Dec 31 05:13:16 2019	664505.677	Series: E ( 37 ) 0.107%
+Tue Dec 31 05:13:20 2019	664509.741	Series: E ( 36 ) 0.128%
+Tue Dec 31 05:13:25 2019	664514.743	Series: E ( 35 ) 0.153%
+Tue Dec 31 05:13:31 2019	664520.714	Series: E ( 34 ) 0.183%
+Tue Dec 31 05:13:38 2019	664528.323	Series: E ( 33 ) 0.219%
+Tue Dec 31 05:13:47 2019	664537.507	Series: E ( 32 ) 0.262%
+Tue Dec 31 05:13:59 2019	664548.567	Series: E ( 31 ) 0.313%
+Tue Dec 31 05:14:12 2019	664561.584	Series: E ( 30 ) 0.374%
+Tue Dec 31 05:14:28 2019	664578.372	Series: E ( 29 ) 0.448%
+Tue Dec 31 05:14:47 2019	664597.420	Series: E ( 28 ) 0.535%
+Tue Dec 31 05:15:09 2019	664619.546	Series: E ( 27 ) 0.640%
+Tue Dec 31 05:15:38 2019	664647.634	Series: E ( 26 ) 0.766%
+Tue Dec 31 05:16:13 2019	664683.179	Series: E ( 25 ) 0.916%
+Tue Dec 31 05:16:56 2019	664725.605	Series: E ( 24 ) 1.095%
+Tue Dec 31 05:17:48 2019	664778.463	Series: E ( 23 ) 1.309%
+Tue Dec 31 05:18:51 2019	664841.252	Series: E ( 22 ) 1.566%
+Tue Dec 31 05:20:07 2019	664916.612	Series: E ( 21 ) 1.872%
+Tue Dec 31 05:21:39 2019	665008.726	Series: E ( 20 ) 2.239%
+Tue Dec 31 05:23:32 2019	665122.482	Series: E ( 19 ) 2.678%
+Tue Dec 31 05:25:59 2019	665268.807	Series: E ( 18 ) 3.202%
+Tue Dec 31 05:28:43 2019	665433.394	Series: E ( 17 ) 3.830%
+Tue Dec 31 05:32:46 2019	665675.937	Series: S ( 16 ) 4.580%
+Tue Dec 31 05:41:37 2019	666207.339	Series: S ( 15 ) 5.478%
+Tue Dec 31 05:52:22 2019	666852.254	Series: S ( 14 ) 6.552%
+Tue Dec 31 06:05:26 2019	667636.117	Series: S ( 13 ) 7.838%
+Tue Dec 31 06:21:59 2019	668628.862	Series: S ( 12 ) 9.376%
+Tue Dec 31 06:48:39 2019	670228.987	Series: S ( 11 ) 11.218%
+Tue Dec 31 08:02:46 2019	674676.281	Series: S ( 10 ) 13.422%
+Tue Dec 31 10:02:07 2019	681836.760	Series: S ( 9 ) 16.062%
+Tue Dec 31 13:05:07 2019	692817.215	Series: S ( 8 ) 19.225%
+Tue Dec 31 16:13:08 2019	704097.574	Series: S ( 7 ) 23.015%
+Tue Dec 31 20:42:53 2019	720283.402	Series: S ( 6 ) 27.560%
+Wed Jan  1 02:45:01 2020	742010.626	Series: S ( 5 ) 33.013%
+Wed Jan  1 10:14:09 2020	768959.443	Series: S ( 4 ) 39.564%
+Wed Jan  1 19:30:29 2020	802339.085	Series: S ( 3 ) 47.444%
+Thu Jan  2 09:38:22 2020	853212.167	Series: S ( 2 ) 56.942%
+Fri Jan  3 03:39:55 2020	918104.586	Series: S ( 1 ) 68.430%
+Sat Jan  4 02:02:52 2020	998681.841	Series: S ( 0 ) 82.421%
+Sun Jan  5 07:22:06 2020	1104236.109	Finishing Series
+Sun Jan  5 08:14:28 2020	1107377.950	Large Division
+Sun Jan  5 18:10:27 2020	1143137.001	Accumulate
+Sun Jan  5 18:34:06 2020	1144556.466	76 ArcCoth( 4801 ):
+Sun Jan  5 18:34:06 2020	1144556.467	Series CommonP2B3...  81,492,249,027 terms  (Expansion Factor = 2.464)
+Sun Jan  5 18:34:06 2020	1144556.467	Series: A ( 28 ) 0.000%
+Sun Jan  5 18:34:07 2020	1144556.675	Series: A ( 27 ) 0.003%
+Sun Jan  5 18:34:07 2020	1144557.254	Series: A ( 26 ) 0.010%
+Sun Jan  5 18:34:08 2020	1144557.882	Series: E ( 25 ) 0.016%
+Sun Jan  5 18:34:08 2020	1144558.522	Series: E ( 24 ) 0.023%
+Sun Jan  5 18:34:09 2020	1144559.393	Series: E ( 23 ) 0.032%
+Sun Jan  5 18:34:11 2020	1144560.576	Series: E ( 22 ) 0.045%
+Sun Jan  5 18:34:12 2020	1144562.241	Series: E ( 21 ) 0.062%
+Sun Jan  5 18:34:14 2020	1144564.474	Series: E ( 20 ) 0.087%
+Sun Jan  5 18:34:17 2020	1144567.557	Series: E ( 19 ) 0.122%
+Sun Jan  5 18:34:22 2020	1144572.143	Series: E ( 18 ) 0.170%
+Sun Jan  5 18:34:28 2020	1144578.458	Series: E ( 17 ) 0.237%
+Sun Jan  5 18:34:37 2020	1144587.196	Series: E ( 16 ) 0.331%
+Sun Jan  5 18:34:50 2020	1144600.077	Series: E ( 15 ) 0.463%
+Sun Jan  5 18:35:08 2020	1144618.395	Series: E ( 14 ) 0.646%
+Sun Jan  5 18:35:34 2020	1144643.839	Series: E ( 13 ) 0.903%
+Sun Jan  5 18:36:13 2020	1144682.567	Series: E ( 12 ) 1.260%
+Sun Jan  5 18:37:08 2020	1144738.425	Series: E ( 11 ) 1.760%
+Sun Jan  5 18:38:30 2020	1144820.517	Series: E ( 10 ) 2.458%
+Sun Jan  5 18:40:27 2020	1144936.628	Series: E ( 9 ) 3.433%
+Sun Jan  5 18:44:00 2020	1145149.766	Series: S ( 8 ) 4.796%
+Sun Jan  5 18:53:18 2020	1145707.631	Series: S ( 7 ) 6.699%
+Sun Jan  5 19:06:52 2020	1146521.767	Series: S ( 6 ) 9.360%
+Sun Jan  5 19:33:26 2020	1148115.749	Series: S ( 5 ) 13.080%
+Sun Jan  5 21:05:13 2020	1153623.021	Series: S ( 4 ) 18.285%
+Mon Jan  6 00:04:12 2020	1164362.102	Series: S ( 3 ) 25.575%
+Mon Jan  6 04:55:28 2020	1181837.614	Series: S ( 2 ) 35.801%
+Mon Jan  6 13:22:10 2020	1212240.429	Series: S ( 1 ) 50.181%
+Tue Jan  7 02:46:28 2020	1260498.467	Series: S ( 0 ) 70.517%
+
+Tue Jan  7 13:35:13 2020	0.000	--- Resuming From Checkpoint ---
+Tue Jan  7 13:35:13 2020	0.009	Working Memory
+Tue Jan  7 13:36:14 2020	61.147	Working Memory:  172 GiB  (spread: ?)
+Tue Jan  7 13:36:14 2020	61.147	Twiddle Tables
+Tue Jan  7 13:36:14 2020	61.261	Twiddle Tables:  121 MiB  (spread: ?)
+Tue Jan  7 13:36:14 2020	61.261	Allocating I/O Buffers
+Tue Jan  7 13:36:14 2020	61.286	Begin Computation
+Tue Jan  7 13:36:14 2020	61.287	76 ArcCoth( 4801 ):
+Tue Jan  7 13:36:14 2020	61.287	Series CommonP2B3...  81,492,249,027 terms  (Expansion Factor = 2.464)
+Tue Jan  7 13:36:14 2020	61.288	Series: S ( 0 ) 70.517%
+Wed Jan  8 02:12:41 2020	45448.893	Finishing Series
+Wed Jan  8 03:01:04 2020	48351.975	Large Division
+Wed Jan  8 12:16:22 2020	81669.944	Accumulate
+Wed Jan  8 12:37:58 2020	82965.289	-304 ArcCoth( 8749 ):
+Wed Jan  8 12:37:58 2020	82965.289	Series CommonP2B3...  76,104,303,606 terms  (Expansion Factor = 2.363)
+Wed Jan  8 12:37:58 2020	82965.289	Series: A ( 27 ) 0.000%
+Wed Jan  8 12:37:58 2020	82965.520	Series: A ( 26 ) 0.003%
+Wed Jan  8 12:37:59 2020	82966.090	Series: E ( 25 ) 0.010%
+Wed Jan  8 12:37:59 2020	82966.721	Series: E ( 24 ) 0.017%
+Wed Jan  8 12:38:00 2020	82967.382	Series: E ( 23 ) 0.024%
+Wed Jan  8 12:38:01 2020	82968.269	Series: E ( 22 ) 0.034%
+Wed Jan  8 12:38:02 2020	82969.548	Series: E ( 21 ) 0.048%
+Wed Jan  8 12:38:04 2020	82971.235	Series: E ( 20 ) 0.068%
+Wed Jan  8 12:38:06 2020	82973.648	Series: E ( 19 ) 0.095%
+Wed Jan  8 12:38:10 2020	82977.083	Series: E ( 18 ) 0.135%
+Wed Jan  8 12:38:15 2020	82982.091	Series: E ( 17 ) 0.191%
+Wed Jan  8 12:38:22 2020	82989.204	Series: E ( 16 ) 0.270%
+Wed Jan  8 12:38:32 2020	82999.462	Series: E ( 15 ) 0.381%
+Wed Jan  8 12:38:47 2020	83014.532	Series: E ( 14 ) 0.539%
+Wed Jan  8 12:39:09 2020	83036.776	Series: E ( 13 ) 0.762%
+Wed Jan  8 12:39:42 2020	83069.530	Series: E ( 12 ) 1.077%
+Wed Jan  8 12:40:31 2020	83118.756	Series: E ( 11 ) 1.522%
+Wed Jan  8 12:41:43 2020	83190.875	Series: E ( 10 ) 2.152%
+Wed Jan  8 12:43:27 2020	83294.196	Series: E ( 9 ) 3.042%
+Wed Jan  8 12:45:59 2020	83446.456	Series: E ( 8 ) 4.301%
+Wed Jan  8 12:50:27 2020	83714.037	Series: S ( 7 ) 6.082%
+Wed Jan  8 13:02:38 2020	84445.011	Series: S ( 6 ) 8.601%
+Wed Jan  8 13:26:57 2020	85904.567	Series: S ( 5 ) 12.167%
+Wed Jan  8 14:49:40 2020	90867.030	Series: S ( 4 ) 17.216%
+Wed Jan  8 17:36:50 2020	100897.963	Series: S ( 3 ) 24.372%
+Wed Jan  8 22:16:10 2020	117657.296	Series: S ( 2 ) 34.531%
+Thu Jan  9 05:41:37 2020	144384.597	Series: S ( 1 ) 48.989%
+Thu Jan  9 18:18:42 2020	189809.726	Series: S ( 0 ) 69.675%
+Fri Jan 10 13:52:44 2020	260251.408	Finishing Series
+Fri Jan 10 14:41:59 2020	263206.124	Large Division
+Fri Jan 10 23:57:23 2020	296530.981	Accumulate
+Sat Jan 11 00:17:34 2020	297741.203	Writing Hexadecimal Digits
+Sat Jan 11 00:32:59 2020	298666.347	Base Converting
+Sat Jan 11 10:55:14 2020	336001.845	Writing Decimal Digits
+Sat Jan 11 11:13:40 2020	337107.875	Verifying Base Conversion
+Sat Jan 11 17:33:47 2020	359914.219	Verifying Binary Output
+Sat Jan 11 17:40:43 2020	360330.299	Verifying Decimal Output
+Sat Jan 11 17:53:55 2020	361122.162	Verifying Hexadecimal Output
+Sat Jan 11 18:06:11 2020	361858.344	End Computation
+
+----
+
+Checksum0: 993270bef7cf2f5573eaced053171d4f8957e33884e33a007c6f777b7938fe9e3d2845a4daff477e21a7b6aa19b1c2eae6a07d5010cd89fd0371d68b7e7fc591
+
+Checksum1: d33bf6c52b324e13ecfce12e68b54909f8fbb3ec8aecdb24d534f8dd003ed789a28162972db4f635e950b7175c77fc621ce586515de9dc40449aa2df0657bea6

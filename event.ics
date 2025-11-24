@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Classy//NONSGML proacademy.gofundme.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:Launch your website donation form
+DTSTART:20250814T180000Z
+DTEND:20250814T184500Z
+DTSTAMP:20250807T205816Z
+UID:event-1egrm65r2ddcy@3l472hfgexag6.skilljar.com
+SEQUENCE:0
+CREATED:20250807T205816Z
+DESCRIPTION:You are registered for the following event:\n\nLaunch your web
+ site donation form\nFrom: Aug 14\, 2025 11:00 a.m. PDT\nTo: Aug 14\, 2025 
+ 11:45 a.m. PDT\nInstructor: Classy Coaching\n\nJoin us for this small grou
+ p training where a Classy Coach will review the basics of adding your dona
+ tion form directly to your website.\n\nTo join this Zoom Webinar event\, v
+ isit the registration page below and click the launch event button on the 
+ appropriate time and day:\nhttps://proacademy.gofundme.com/setup-embed-for
+ m-training/1763082\n\nYou may also use the above link to cancel your regis
+ tration at any time.
+LAST-MODIFIED:20250807T205816Z
+LOCATION:
+ORGANIZER;CN="GoFundMe Pro Academy":mailto:academy@classy.org
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
